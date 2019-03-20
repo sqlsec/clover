@@ -1,0 +1,86 @@
+5:860  3:096  Found UEFI Acpi 2.0 RSDP at 7FFFE014
+5:860  0:000  Saving ACPI tables from RSDP 7FFFE014 to EFI\CLOVER\ACPI\origin ...
+5:860  0:000   7FFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:864  0:003    (Xsdt: 7FFB3188, Rsdt: 7FFB30C4)
+5:864  0:000    7FFB3188: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 292 -> XSDT.aml
+5:866  0:002    7FFB30C4: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 164 -> RSDT.aml
+5:869  0:002    Tables in Xsdt: 32
+5:869  0:000    0. 7FFDF000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268 -> FACP.aml
+5:872  0:003        (Dsdt: 7FFB9000, Facs: 7FF57000, XDsdt: 7FFB9000, XFacs: 0)
+5:872  0:000        7FFB9000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 142222 -> DSDT.aml
+5:882  0:009        7FF57000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:884  0:002    1. 7FFFD000: 'UEFI', 'INSYDE', Rev: 1, Len: 566 -> UEFI.aml
+5:887  0:002    2. 7FFFC000: 'UEFI', 'INSYDE', Rev: 1, Len: 66 -> UEFI.aml
+5:891  0:003    3. 7FFF5000: 'SSDT', 'INSYDE', Rev: 1, Len: 26094 -> SSDT-0-INSYDE.aml
+5:895  0:004    4. 7FFF4000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85 -> MSDM.aml
+5:898  0:002    5. 7FFF0000: 'SSDT', 'INSYDE', Rev: 2, Len: 12400 -> SSDT-1-INSYDE.aml
+5:900  0:002    6. 7FFE5000: 'SSDT', 'INSYDE', Rev: 2, Len: 42059 -> SSDT-2-INSYDE.aml
+5:905  0:004    7. 7FFE4000: 'SSDT', 'INSYDE', Rev: 2, Len: 3142 -> SSDT-3-INSYDE.aml
+5:908  0:002    8. 7FFE3000: 'ASF!', 'INSYDE', Rev: 32, Len: 165 -> ASF!.aml
+5:910  0:002    9. 7FFE2000: 'ASPT', 'INSYDE', Rev: 7, Len: 52 -> ASPT.aml
+5:913  0:002    10. 7FFE1000: 'BOOT', 'INSYDE', Rev: 1, Len: 40 -> BOOT.aml
+5:916  0:003    11. 7FFE0000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52 -> DBGP.aml
+5:919  0:003    12. 7FFDE000: 'HPET', 'INSYDE', Rev: 1, Len: 56 -> HPET.aml
+5:922  0:002    13. 7FFDD000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 300 -> APIC.aml
+5:925  0:003    14. 7FFDC000: 'MCFG', 'INSYDE', Rev: 1, Len: 60 -> MCFG.aml
+5:928  0:002    15. 7FFB8000: 'SSDT', 'INSYDE', Rev: 2, Len: 1303 -> SSDT-4-INSYDE.aml
+5:931  0:003    16. 7FFB7000: 'SSDT', 'INSYDE', Rev: 2, Len: 1803 -> SSDT-5-INSYDE.aml
+5:934  0:003    17. 7FFB6000: 'LPIT', 'INSYDE', Rev: 1, Len: 148 -> LPIT.aml
+5:937  0:003    18. 7FFB5000: 'WSMT', 'INSYDE', Rev: 1, Len: 40 -> WSMT.aml
+5:940  0:003    19. 7FFB4000: 'SSDT', 'INSYDE', Rev: 2, Len: 671 -> SSDT-6-INSYDE.aml
+5:943  0:002    20. 7FFB2000: 'SSDT', 'INSYDE', Rev: 1, Len: 838 -> SSDT-7-INSYDE.aml
+5:947  0:003    21. 7FFAE000: 'SSDT', 'INSYDE', Rev: 2, Len: 12290 -> SSDT-8-INSYDE.aml
+5:949  0:002    22. 7FFAD000: 'SSDT', 'INSYDE', Rev: 2, Len: 1310 -> SSDT-9-INSYDE.aml
+5:952  0:002    23. 7FFAC000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52 -> DBGP.aml
+5:956  0:004    24. 7FFAB000: 'DBG2', 'INSYDE', Rev: 0, Len: 84 -> DBG2.aml
+5:959  0:002    25. 7FFA9000: 'SSDT', 'INSYDE', Rev: 2, Len: 4838 -> SSDT-10-INSYDE.aml
+5:962  0:002    26. 7FFA7000: 'SSDT', 'INSYDE', Rev: 2, Len: 6062 -> SSDT-11-INSYDE.aml (Found hidden SSDT 7 pcs)
+5:964  0:002        * 7F794018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1485  53 53 44 54 CD 05 00 00 02 BB 50 6D 52 65 66 00 Internal length = 1485 -> SSDT-x11_0-Cpu0Ist.aml
+5:967  0:002        * 7F792018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 2A 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x11_1-ApIst.aml
+5:969  0:002        * 7F793898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 11 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x11_2-Cpu0Cst.aml
+5:972  0:002        * 7F794898: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 93 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x11_3-ApCst.aml
+5:974  0:002        * 7F794DD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 7D 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x11_4-Cpu0Hwp.aml
+5:977  0:002        * 7F88E418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 80 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x11_5-ApHwp.aml
+5:979  0:002        * 7F793018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 85 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x11_6-HwpLvt.aml
+5:982  0:003  
+5:982  0:000    27. 7FFA3000: 'SSDT', 'INSYDE', Rev: 1, Len: 15135 -> SSDT-12-INSYDE.aml
+5:986  0:003    28. 7FFA2000: 'DMAR', 'INSYDE', Rev: 1, Len: 204 -> DMAR.aml
+5:989  0:002    29. 7FFA1000: 'NHLT', 'INSYDE', Rev: 0, Len: 45 -> NHLT.aml
+5:992  0:003    30. 7FFA0000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68 -> FPDT.aml
+5:995  0:003    31. 7FF9F000: 'BGRT', 'INSYDE', Rev: 1, Len: 56 -> BGRT.aml
+5:998  0:002    Tables in Rsdt: 32
+5:998  0:000    0. 7FFDF000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+5:998  0:000        (Dsdt: 7FFB9000, Facs: 7FF57000, XDsdt: 7FFB9000, XFacs: 0)
+5:998  0:000        7FFB9000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 142222
+6:000  0:002        7FF57000: 'FACS', Ver: 2, Len: 64
+6:000  0:000    1. 7FFFD000: 'UEFI', 'INSYDE', Rev: 1, Len: 566
+6:000  0:000    2. 7FFFC000: 'UEFI', 'INSYDE', Rev: 1, Len: 66
+6:000  0:000    3. 7FFF5000: 'SSDT', 'INSYDE', Rev: 1, Len: 26094
+6:000  0:000    4. 7FFF4000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+6:000  0:000    5. 7FFF0000: 'SSDT', 'INSYDE', Rev: 2, Len: 12400
+6:000  0:000    6. 7FFE5000: 'SSDT', 'INSYDE', Rev: 2, Len: 42059
+6:000  0:000    7. 7FFE4000: 'SSDT', 'INSYDE', Rev: 2, Len: 3142
+6:000  0:000    8. 7FFE3000: 'ASF!', 'INSYDE', Rev: 32, Len: 165
+6:000  0:000    9. 7FFE2000: 'ASPT', 'INSYDE', Rev: 7, Len: 52
+6:000  0:000    10. 7FFE1000: 'BOOT', 'INSYDE', Rev: 1, Len: 40
+6:000  0:000    11. 7FFE0000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52
+6:000  0:000    12. 7FFDE000: 'HPET', 'INSYDE', Rev: 1, Len: 56
+6:000  0:000    13. 7FFDD000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 300
+6:000  0:000    14. 7FFDC000: 'MCFG', 'INSYDE', Rev: 1, Len: 60
+6:000  0:000    15. 7FFB8000: 'SSDT', 'INSYDE', Rev: 2, Len: 1303
+6:000  0:000    16. 7FFB7000: 'SSDT', 'INSYDE', Rev: 2, Len: 1803
+6:000  0:000    17. 7FFB6000: 'LPIT', 'INSYDE', Rev: 1, Len: 148
+6:000  0:000    18. 7FFB5000: 'WSMT', 'INSYDE', Rev: 1, Len: 40
+6:000  0:000    19. 7FFB4000: 'SSDT', 'INSYDE', Rev: 2, Len: 671
+6:000  0:000    20. 7FFB2000: 'SSDT', 'INSYDE', Rev: 1, Len: 838
+6:000  0:000    21. 7FFAE000: 'SSDT', 'INSYDE', Rev: 2, Len: 12290
+6:000  0:000    22. 7FFAD000: 'SSDT', 'INSYDE', Rev: 2, Len: 1310
+6:000  0:000    23. 7FFAC000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52
+6:000  0:000    24. 7FFAB000: 'DBG2', 'INSYDE', Rev: 0, Len: 84
+6:000  0:000    25. 7FFA9000: 'SSDT', 'INSYDE', Rev: 2, Len: 4838
+6:000  0:000    26. 7FFA7000: 'SSDT', 'INSYDE', Rev: 2, Len: 6062
+6:000  0:000    27. 7FFA3000: 'SSDT', 'INSYDE', Rev: 1, Len: 15135
+6:000  0:000    28. 7FFA2000: 'DMAR', 'INSYDE', Rev: 1, Len: 204
+6:000  0:000    29. 7FFA1000: 'NHLT', 'INSYDE', Rev: 0, Len: 45
+6:000  0:000    30. 7FFA0000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+6:000  0:000    31. 7FF9F000: 'BGRT', 'INSYDE', Rev: 1, Len: 56
