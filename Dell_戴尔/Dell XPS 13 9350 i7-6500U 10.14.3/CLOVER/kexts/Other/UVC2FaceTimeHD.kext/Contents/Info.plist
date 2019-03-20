@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0.2, Copyright © 2000-2017 syscl/Yating Zhou. All Rights Reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.syscl.injector.UVC2iSight</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Syscl:UVC2FaceTimeHD</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.2</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>UVC Device</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>USB Product Name</key>
+				<string>FaceTime HD Camera</string>
+				<key>USB Serial Number</key>
+				<string>CC26403K8GPGJJM1K</string>
+				<key>USB Vendor Name</key>
+				<string>Apple Inc.</string>
+				<key>bcdDevice</key>
+				<integer>32805</integer>
+				<key>iManufacturer</key>
+				<integer>1</integer>
+				<key>iProduct</key>
+				<integer>2</integer>
+				<key>iSerialNumber</key>
+				<integer>3</integer>
+				<key>idProduct</key>
+				<integer>34304</integer>
+				<key>idVendor</key>
+				<integer>1452</integer>
+				<key>kSuspendPort</key>
+				<true/>
+				<key>non-removable</key>
+				<string>yes</string>
+			</dict>
+			<key>idProduct</key>
+			<integer>26380</integer>
+			<key>idVendor</key>
+			<integer>3141</integer>
+		</dict>
+		<key>UVC Device2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>USB Product Name</key>
+				<string>FaceTime HD Camera</string>
+				<key>USB Serial Number</key>
+				<string>CC26403K8GPGJJM1K</string>
+				<key>USB Vendor Name</key>
+				<string>Apple Inc.</string>
+				<key>bcdDevice</key>
+				<integer>32805</integer>
+				<key>iManufacturer</key>
+				<integer>1</integer>
+				<key>iProduct</key>
+				<integer>2</integer>
+				<key>iSerialNumber</key>
+				<integer>3</integer>
+				<key>idProduct</key>
+				<integer>34304</integer>
+				<key>idVendor</key>
+				<integer>1452</integer>
+				<key>kSuspendPort</key>
+				<true/>
+				<key>non-removable</key>
+				<string>yes</string>
+			</dict>
+			<key>idProduct</key>
+			<integer>139590</integer>
+			<key>idVendor</key>
+			<integer>12340</integer>
+		</dict>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
