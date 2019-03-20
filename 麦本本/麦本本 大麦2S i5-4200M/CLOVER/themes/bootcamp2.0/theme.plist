@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>JahStories</string>
+	<key>Year</key>
+	<string>2015</string>
+	<key>Description</key>
+	<string>A theme to match black mode</string>
+	<key>Theme</key>
+	<dict>
+		<key>Background</key>
+		<dict>
+			<key>Path</key>
+			<string>bg.png</string>
+			<key>Type</key>
+			<string>Tile</string>
+		</dict>
+		<key>Banner</key>
+		<string>banner.png</string>
+		<key>Selection</key>
+		<dict>
+			<key>Color</key>
+			<string>0xFFFFFF80</string>
+			<key>Small</key>
+			<string>selection_small.png</string>
+			<key>Big</key>
+			<string>selection_big.png</string>
+		</dict>
+		<key>Font</key>
+		<dict>
+			<key>Type</key>
+			<string>Load</string>
+			<key>Path</key>
+			<string>font.png</string>
+			<key>CharWidth</key>
+			<integer>10</integer>
+		</dict>
+		<key>Badges</key>
+		<dict>
+			<key>Show</key>
+			<true/>
+			<key>Swap</key>
+			<true/>
+			<key>Inline</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>
