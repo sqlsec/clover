@@ -1,0 +1,772 @@
+0:100  0:100  MemLog inited, TSC freq: 2305793920
+0:100  0:000  CPU was calibrated without ACPI PM Timer: ACPI I/O space is not enabled., use RTC
+0:100  0:000  
+0:100  0:000  Now is 23.7.2017,  23:12:26 (GMT)
+0:100  0:000  Starting Clover revision: 4114 on LENOVO EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE5 -n 5 | OS: 10.12.5 | XCODE: 8.3.3]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,4C26E538-53C4-4565-A487-A6DDDCFBCDED,0xE1800,0x31800) @6732FF18
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = SK Hynix
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 37241721
+0:100  0:000  SmbiosTable.Type17->PartNumber = HMA451S6AFR8N-TF    
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: '80NV' with board 'Allsparks 5A'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=506E3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000   The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz
+0:100  0:000   TSC/CCC Information Leaf:
+0:100  0:000    numerator     : 192
+0:100  0:000    denominator   : 2
+0:100  0:000   Calibrated ARTFrequency: 24018686
+0:100  0:000  MSR 0xE2 before patch 1E008006
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              0008083B_F1011700
+0:100  0:000  MSR 0x1A0             00850089
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 95 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 23.0/8
+0:100  0:000  Turbo: 28/29/30/32
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2200 MHz
+0:100  0:000  TSC: 2200 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 1910 class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 139B class=030200
+0:100  0:000  PCI (00|00:02.00) : 8086 191B class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 530 (Intel)
+0:100  0:000  PCI (00|00:14.00) : 8086 A12F class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 A13A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 A103 class=010601
+0:100  0:000  PCI (00|00:1C.00) : 8086 A111 class=060400
+0:102  0:001  PCI (00|07:00.00) : 1217 8520 class=080501
+0:102  0:000  PCI (00|00:1C.02) : 8086 A112 class=060400
+0:102  0:000  PCI (00|08:00.00) : 8086 3166 class=028000
+0:102  0:000   - WIFI: Vendor=Intel
+0:102  0:000  PCI (00|00:1C.03) : 8086 A113 class=060400
+0:102  0:000  PCI (00|09:00.00) : 10EC 8168 class=020000
+0:102  0:000   - LAN: 0 Vendor=Realtek
+0:102  0:000  PCI (00|00:1D.00) : 8086 A118 class=060400
+0:102  0:000  PCI (00|0A:00.00) : 144D A802 class=010802
+0:102  0:000  PCI (00|00:1F.00) : 8086 A14E class=060100
+0:102  0:000  PCI (00|00:1F.02) : 8086 A121 class=058000
+0:102  0:000  PCI (00|00:1F.03) : 8086 A170 class=040300
+0:102  0:000  PCI (00|00:1F.04) : 8086 A123 class=0C0500
+0:102  0:000  === [ GetDefaultSettings ] ================================
+0:102  0:000  Clover load options size = 0 bytes
+0:109  0:006  EFI\CLOVER\config.plist loaded: Success
+0:109  0:000  === [ GetListOfThemes ] ===================================
+0:109  0:000  - [00]: BGM
+0:109  0:000  - [01]: El Capitan v2
+0:110  0:000  - [02]: embedded
+0:110  0:000  - [02]: random
+0:111  0:000  === [ Found config plists ] ===============================
+0:111  0:000  - config.plist
+0:111  0:000  === [ GetEarlyUserSettings ] ==============================
+0:111  0:000  timeout set to 5
+0:111  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:111  0:000  ForceKextsToLoad: 1 requested
+0:111  0:000   - [0]: System\Library\Extensions\IONetworkingFamily.kext
+0:111  0:000  KextsToPatch: 8 requested
+0:111  0:000   - [00]: AirPortBrcm4360 (AirPortBrcm4360 - fcvo, 10.12.x (credit the-darkvoid)) :: MatchOS: 10.12.x :: BinPatch :: data len: 8
+0:111  0:000   - [01]: AirPortBrcm4360 (AirPortBrcm4360 5Ghz) :: MatchOS: 10.11.x,10.12.x :: BinPatch :: data len: 7
+0:111  0:000   - [02]: IOBluetoothFamily (10.11.dp1+ BT4LE-Handoff-Hotspot, credit RehabMan based on Dokterdok original) :: MatchOS: 10.11.x,10.12.x :: BinPatch :: data len: 8
+0:111  0:000   - [03]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:111  0:000   - [04]: com.apple.driver.AppleIntelSKLGraphicsFramebuffer (eDP, port 0000, 0x191e0000, 0x19160000, 0x19260000, 0x19270000, 0x191b0000, 0x19160002, 0x19260002, 0x191e0003, 0x19260004, 0x19270004, 0x193b0005 credit syscl) :: BinPatch :: data len: 20
+0:111  0:000   - [05]: AppleUSBXHCIPCI (10.12 fudge USB 3.1 device ID,15b68086 -> 15b58086) :: PlistPatch :: data len: 10
+0:111  0:000   - [06]: IOThunderboltFamily (Bypass ThunderBolt3 SkipEnumeration credit kid2010 implemented by syscl) :: MatchOS: 10.12.x :: BinPatch :: data len: 18
+0:111  0:000   - [07]: com.apple.driver.AppleBacklight (change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)) :: BinPatch :: data len: 9
+0:111  0:000  KernelToPatch: 1 requested
+0:111  0:000   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: MatchOS: 10.12.x,10.13.x :: data len: 8
+0:111  0:000  Default theme: El Capitan v2
+0:111  0:000  ** Warning: unknown custom entry Type 'Other'
+0:111  0:000  === [ LoadDrivers ] =======================================
+0:111  0:000  Loading apfs.efi  status=Success
+0:120  0:008   - driver needs connecting
+0:120  0:000  Loading AppleImageCodec-64.efi  status=Success
+0:122  0:001  Loading AppleKeyAggregator-64.efi  status=Success
+0:123  0:001  Loading AppleUITheme-64.efi  status=Success
+0:125  0:001  Loading DataHubDxe-64.efi  status=Success
+0:127  0:002  Loading EmuVariableUefi-64.efi  status=Success
+0:129  0:001  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:129  0:000  Loading FirmwareVolume-64.efi  status=Success
+0:131  0:001  Loading FSInject-64.efi  status=Success
+0:133  0:001  Loading HFSPlus.efi  status=Success
+0:135  0:002   - driver needs connecting
+0:135  0:000  Loading OsxAptioFixDrv-64.efi  status=Success
+0:137  0:001  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:139  0:001  Loading SMCHelper-64.efi  status=Success
+0:141  0:001  2 drivers needs connecting ...
+0:141  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:141  0:000  HFS+ driver loaded
+0:141  0:000  APFS driver loaded
+0:141  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:605  0:463  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+0:652  0:047  === [ InitScreen ] ========================================
+0:652  0:000  SetMaxResolution: found best mode 0: 1920x1080
+0:652  0:000   - already set
+0:652  0:000  Console modes reported: 7, available modes:
+0:652  0:000   - [01]: 80x25
+0:652  0:000   - [02]: 80x50
+0:652  0:000   - [03]: 80x25
+0:652  0:000   - [04]: 240x56 (current mode)
+0:652  0:000   - [05]: 100x31
+0:652  0:000   - [06]: 128x40
+0:652  0:000   - [07]: 160x53
+0:652  0:000  SetScreenResolution: 1920x1080 - already set
+0:652  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,4C26E538-53C4-4565-A487-A6DDDCFBCDED,0xE1800,0x31800)
+0:653  0:000  Using embedded font: Success
+0:654  0:000  === [ GetMacAddress ] =====================================
+0:654  0:000  MAC address of LAN #0= 50:7B:9D:D3:A5:69:
+0:654  0:000  MAC address of LAN #1= 50:7B:9D:D3:A5:69:
+0:654  0:000  MAC address of LAN #2= 50:7B:9D:D3:A5:69:
+0:654  0:000  MAC address of LAN #3= 50:7B:9D:D3:A5:69:
+0:654  0:000  === [ ScanSPD ] ===========================================
+0:656  0:002  SMBus device : 8086 A123 class=0C0500 status=Success
+0:656  0:000  SMBus CmdReg: 0x3
+0:656  0:000  Scanning SMBus [8086:A123], mmio: 0x9442C004, ioport: 0x6040, hostc: 0x11
+0:656  0:000  Slots to scan [8]...
+0:657  0:000  SPD[0]: Type 12 @0x50
+0:674  0:017  Unknown vendor bank=0x80 code=0xAD
+0:674  0:000  Not using XMP because it is not present
+0:674  0:000  DDR speed 2134MHz
+0:674  0:000  Slot: 0 Type 26 4096MB 2134MHz Vendor=NoName PartNo=HMA451S6AFR8N-TF SerialNo=02050F080B020D08
+0:675  0:000  SPD[2]: Type 12 @0x52
+0:692  0:017  Not using XMP because it is not present
+0:692  0:000  DDR speed 2132MHz
+0:692  0:000  Slot: 2 Type 26 4096MB 2132MHz Vendor=Kingston PartNo=9905624-010.A00G SerialNo=01090108060B0709
+0:693  0:000  === [ GetAcpiTablesList ] =================================
+0:693  0:000  Get Acpi Tables List from RSDT:
+0:693  0:000   - [00]: FACP  CB-01    len=244
+0:693  0:000   - [01]: TCPA  CB-01    len=50
+0:693  0:000   - [02]: UEFI  CB-01    len=566
+0:693  0:000   - [03]: UEFI  CB-01    len=66
+0:693  0:000   - [04]: SSDT  CB-01    len=1207
+0:693  0:000   - [05]: SSDT  CB-01    len=75
+0:693  0:000   - [06]: TPM2  CB-01    len=52
+0:693  0:000   - [07]: MSDM  CB-01    len=85
+0:693  0:000   - [08]: SSDT  CB-01    len=20740
+0:693  0:000   - [09]: DBGP  CB-01    len=52
+0:693  0:000   - [10]: DBG2  CB-01    len=97
+0:693  0:000   - [11]: SSDT  CB-01    len=1916
+0:693  0:000   - [12]: ASF!  CB-01    len=165
+0:693  0:000   - [13]: ASPT  CB-01    len=52
+0:693  0:000   - [14]: BOOT  CB-01    len=40
+0:693  0:000   - [15]: HPET  CB-01    len=56
+0:693  0:000   - [16]: LPIT  CB-01    len=148
+0:693  0:000   - [17]: APIC  CB-01    len=188
+0:693  0:000   - [18]: MCFG  CB-01    len=60
+0:693  0:000   - [19]: SSDT  CB-01    len=724
+0:693  0:000   - [20]: SSDT  CB-01    len=410
+0:693  0:000   - [21]: SSDT  CB-01    len=1012
+0:693  0:000   - [22]: SSDT  CB-01    len=3672
+0:693  0:000   - [23]: SSDT  NVOP     len=17236
+0:693  0:000   - [24]: DMAR  CB-01    len=168
+0:693  0:000   - [25]: FPDT  CB-01    len=68
+0:693  0:000   - [26]: BGRT  CB-01    len=56
+0:693  0:000  Calibrated TSC Frequency = 2305793920 = 2305MHz
+0:693  0:000  === [ GetUserSettings ] ===================================
+0:693  0:000  Add 9 properties:
+0:693  0:000   - [00]: IntelGFX, len: 4
+0:693  0:000   - [01]: IntelGFX, len: 4
+0:693  0:000   - [02]: IntelGFX, len: 4
+0:693  0:000   - [03]: IntelGFX, len: 4
+0:693  0:000   - [04]: IntelGFX, len: 4
+0:693  0:000   - [05]: IntelGFX, len: 4
+0:693  0:000   - [06]: IntelGFX, len: 4
+0:693  0:000   - [07]: IntelGFX, len: 4
+0:693  0:000   - [08]: IntelGFX, len: 10
+0:693  0:000  USB FixOwnership: yes
+0:693  0:000  Dropping 5 tables:
+0:693  0:000   - [00]: Drop table  signature="#MCF" (46434D23)
+0:693  0:000           - set table: 46434D23,                0 to drop: no
+0:693  0:000   - [01]: Drop table  signature="DMAR" (52414D44)
+0:693  0:000           - set table: 52414D44,                0 to drop: yes
+0:693  0:000   - [02]: Drop table  signature="SSDT" (54445353) table-id="xh_rvp10" (30317076725F6878)
+0:693  0:000           - set table: 54445353, 30317076725F6878 to drop: no
+0:693  0:000   - [03]: Drop table  signature="MATS" (5354414D)
+0:693  0:000           - set table: 5354414D,                0 to drop: no
+0:693  0:000   - [04]: Drop table  signature="BGRT" (54524742)
+0:693  0:000           - set table: 54524742,                0 to drop: yes
+0:693  0:000   - final DSDT Fix mask=00060040
+0:693  0:000  PatchesDSDT: 37 requested
+0:693  0:000   - [00]: (rename HPET to XPET,  pair with SSDT-HPET.aml) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [01]: (fix Return(SDSM) problem (not the perfect way)) lenToFind: 16, lenToReplace: 16
+0:693  0:000   - [02]: (fix Method ADBG problem (not the perfect way)) lenToFind: 19, lenToReplace: 19
+0:693  0:000   - [03]: (Rename _DSM to XDSM) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [04]: (Change H_EC to EC) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [05]: (change ECDV to EC) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [06]: (Device AC rename to ADP1  pair with SSDT-ADP1 - credit syscl) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [07]: (Remove _STA method for PNP0C04 to load - credit syscl) lenToFind: 14, lenToReplace: 14
+0:693  0:000   - [08]: (Device SBTN rename to SLPB pair with SSDT-SLPB - credit syscl) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [09]: (Device ALSD rename to ALS0 - credit syscl) lenToFind: 8, lenToReplace: 8
+0:693  0:000   - [10]: (Rename Method GPRW,02 to Method XPRW,02 and need add-on  SSDT-PRW.aml) lenToFind: 7, lenToReplace: 7
+0:693  0:000   - [11]: (Rename HS12 -> HS92 to avoid the patchmatic error, pair with SSDT-TB.aml) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [12]: (Rename  Method BRT6,2 to BRTX,2, and need add-on  SSDT-BRT6.aml) lenToFind: 7, lenToReplace: 7
+0:693  0:000   - [13]: (rename _RMV to XRMV) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [14]: (change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [15]: (change HDAS to HDEF, optionally pair with SSDT-HDEF.aml) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [16]: (change OSID to OSSD, that because of the _OSI rename patch may cause problem) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [17]: (change _OSI to XOSI, pair with SSDT-XOSI.aml) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [18]: (change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [19]: (change SAT0 to SATA, optionally pair with SSDT-SATA.aml) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [20]: (change HECI to IMEI, optionally pair with SSDT-IMEI.aml) lenToFind: 4, lenToReplace: 4
+0:693  0:000   - [21]: (change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml) lenToFind: 5, lenToReplace: 5
+0:693  0:000   - [22]: (change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml) lenToFind: 5, lenToReplace: 5
+0:693  0:000   - [23]: (change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml) lenToFind: 5, lenToReplace: 5
+0:693  0:000   - [24]: (change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml) lenToFind: 5, lenToReplace: 5
+0:693  0:000   - [25]: (change Method(XWAK,0,N) to ZWAK, pair with SSDT-PTSWAK.aml) lenToFind: 5, lenToReplace: 5
+0:693  0:000   - [26]: (change Method(XWAK,0,S) to ZWAK, pair with SSDT-PTSWAK.aml) lenToFind: 5, lenToReplace: 5
+0:693  0:000   - [27]: (change Method(GPRW,2,N) to XPRW, pair with SSDT-PRW.aml) lenToFind: 5, lenToReplace: 5
+0:693  0:000   - [28]: (change Method(UPRW,2,..) to Method(XPRW,2,..), pair with SSDT-PRW.aml) lenToFind: 7, lenToReplace: 7
+0:693  0:000   - [29]: (change LANC Method(_PRW,0,S) to Method(XPRW,0,..), pair with SSDT-LANC_PRW.aml) lenToFind: 11, lenToReplace: 11
+0:693  0:000   - [30]: (Mutex SMIX,01 to SMIX,00) lenToFind: 7, lenToReplace: 7
+0:693  0:000   - [31]: (Mutex WMIX,01 to WMIX,00) lenToFind: 7, lenToReplace: 7
+0:693  0:000   - [32]: (Mutex ECMX,01 to ECMX,00) lenToFind: 7, lenToReplace: 7
+0:693  0:000   - [33]: (Mutex ECSX,01 to ECSX,00) lenToFind: 7, lenToReplace: 7
+0:693  0:000   - [34]: (Mutex ECM1,01 to ECM1,00) lenToFind: 7, lenToReplace: 7
+0:693  0:000   - [35]: (Mutex QSEV,01 to QSEV,00) lenToFind: 7, lenToReplace: 7
+0:693  0:000   - [36]: (Mutex ECAX,01 to ECAX,00) lenToFind: 7, lenToReplace: 7
+0:693  0:000  PluginType: 1
+0:693  0:000  ChassisType: 0x8
+0:697  0:003  === [ ScanVolumes ] =======================================
+0:697  0:000  Found 11 volumes with blockIO
+0:697  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+0:697  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:697  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,44C7C60C-10A3-486E-A2FC-2979DC81DB92,0x800,0xE1000)
+0:697  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:697  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,4C26E538-53C4-4565-A487-A6DDDCFBCDED,0xE1800,0x31800)
+0:697  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:698  0:000          This is SelfVolume !!
+0:698  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(3,GPT,0A610AF5-E23A-43CB-A194-90C687E93E00,0x113000,0x8000)
+0:698  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(4,GPT,E82508A3-82D7-4699-BA83-A00412D5F458,0x11B000,0xED61000)
+0:698  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:698  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)
+0:699  0:001  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(1,GPT,FC358092-41B4-4DC7-A121-282C104728E5,0x40,0x257ECFFF)
+0:699  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:699  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,F825FCDF-F4E5-49FC-AAFA-85E45E59ACBD,0x257ED800,0x190000)
+0:701  0:001          Result of bootcode detection: bootable Windows (win)
+0:710  0:009  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(3,GPT,92904F9C-8741-4D86-8BB9-2ADEBAB0E25F,0x2597D800,0x18ECA120)
+0:711  0:001  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(4,GPT,4FC34849-9157-4355-B76F-E840B314EB8C,0x3E847920,0x135F20)
+0:713  0:001  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(5,GPT,156EF02C-63E8-45ED-BCE4-DFF36EBFAC2C,0x3E97D840,0x35D88570)
+0:714  0:001          Result of bootcode detection: bootable Windows (vista,win)
+0:714  0:000  PutNvramPlistToRtVars: nvram.plist not found
+0:715  0:000  === [ InitTheme ] =========================================
+0:715  0:000  Using theme 'El Capitan v2' (EFI\CLOVER\themes\El Capitan v2)
+0:715  0:000  OS main and drive as badge
+0:715  0:000  Warning! Character width 23 should be even!
+0:717  0:001  Loading font from ThemeDir: Success
+0:718  0:000  Choosing theme El Capitan v2
+0:718  0:000  after NVRAM boot-args=kext-dev-mode=1 dart=0 nv_disable=1 -v
+0:718  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:718  0:000  found AppleSMC protocol
+0:718  0:000  === [ AddCustomEntries ] ==================================
+0:718  0:000  Custom entry 0 skipped because it is disabled.
+0:718  0:000  === [ ScanLoader ] ========================================
+0:718  0:000  - [02]: 'EFI'
+0:720  0:001          AddLoaderEntry for Volume Name=EFI
+0:720  0:000      Not match custom entry 0: Type: not match
+0:722  0:002  not png, try icns
+0:723  0:000  not png, try icns
+0:724  0:000  not png, try icns
+0:724  0:000  not png, try icns
+0:724  0:000  not png, try icns
+0:725  0:000  not png, try icns
+0:725  0:000  not png, try icns
+0:726  0:000  not png, try icns
+0:726  0:000  not png, try icns
+0:726  0:000  not png, try icns
+0:726  0:000  not png, try icns
+0:727  0:000  not png, try icns
+0:727  0:000  not png, try icns
+0:727  0:000  not png, try icns
+0:728  0:000  not png, try icns
+0:728  0:000  - [07]: 'EFI'
+0:728  0:000  not png, try icns
+0:728  0:000  not png, try icns
+0:728  0:000  not png, try icns
+0:728  0:000  not png, try icns
+0:729  0:000  not png, try icns
+0:729  0:000  not png, try icns
+0:729  0:000  not png, try icns
+0:729  0:000  not png, try icns
+0:730  0:000  not png, try icns
+0:730  0:000  not png, try icns
+0:730  0:000  not png, try icns
+0:730  0:000  not png, try icns
+0:730  0:000  not png, try icns
+0:731  0:000  not png, try icns
+0:731  0:000  - [08]: 'MacOS sierra'
+0:772  0:041          AddLoaderEntry for Volume Name=MacOS sierra
+0:772  0:000      Not match custom entry 0: Type: not match
+0:780  0:007      Check if volume Is Hibernated:
+0:780  0:000      Check sleep image 'by signature':
+0:835  0:055      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+0:835  0:000      using default sleep image name = \private\var\vm\sleepimage
+0:857  0:021      no valid sleep image offset was found
+0:857  0:000       sleepimage offset could not be acquired
+0:857  0:000      hibernated: no - sign
+0:857  0:000  not png, try icns
+0:857  0:000          [!] Icon 17 (icons\vol_internal_hfs.icns) not found (path: EFI\CLOVER\themes\El Capitan v2)
+0:857  0:000  not png, try icns
+0:858  0:000  not png, try icns
+0:858  0:000  not png, try icns
+0:858  0:000  not png, try icns
+0:859  0:000  not png, try icns
+0:859  0:000  not png, try icns
+0:859  0:000  not png, try icns
+0:859  0:000  not png, try icns
+0:860  0:000  not png, try icns
+0:860  0:000  not png, try icns
+0:860  0:000  not png, try icns
+0:860  0:000  not png, try icns
+0:861  0:000  not png, try icns
+0:861  0:000  not png, try icns
+0:861  0:000  not png, try icns
+0:861  0:000  - [09]: 'Recovery HD'
+0:862  0:000          AddLoaderEntry for Volume Name=Recovery HD
+0:862  0:000      Not match custom entry 0: Type: not match
+0:873  0:011  not png, try icns
+0:874  0:000  not png, try icns
+0:874  0:000  not png, try icns
+0:874  0:000  not png, try icns
+0:874  0:000  not png, try icns
+0:875  0:000  not png, try icns
+0:875  0:000  not png, try icns
+0:875  0:000  not png, try icns
+0:875  0:000  not png, try icns
+0:876  0:000  not png, try icns
+0:876  0:000  not png, try icns
+0:876  0:000  not png, try icns
+0:876  0:000  not png, try icns
+0:876  0:000  not png, try icns
+0:877  0:000  not png, try icns
+0:877  0:000  not png, try icns
+0:877  0:000  Scanning legacy ...
+0:877  0:000   1: 'Legacy HD1' (vista,win) add legacy
+0:878  0:000   added 'Boot Windows from Legacy HD1' OSType=2 Icon=vista,win
+0:878  0:000   2: 'EFI' (vista,win) add legacy
+0:879  0:000   added 'Boot Windows from EFI' OSType=2 Icon=vista,win
+0:879  0:000   4: 'Legacy HD4' (vista,win) add legacy
+0:880  0:000   added 'Boot Windows from Legacy HD4' OSType=2 Icon=vista,win
+0:880  0:000   6: 'Legacy HD1' (vista,win) add legacy
+0:881  0:000   added 'Boot Windows from Legacy HD1' OSType=2 Icon=vista,win
+0:881  0:000   7: 'EFI' (win) add legacy
+0:882  0:000   added 'Boot Windows from EFI' OSType=2 Icon=win
+0:882  0:000  10: 'Legacy HD5' (vista,win) add legacy
+0:883  0:000   added 'Boot Windows from Legacy HD5' OSType=2 Icon=vista,win
+0:883  0:000  === [ AddCustomTool ] =====================================
+0:883  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+0:883  0:000  Checking EFI partition Volume 2 for Clover
+0:883  0:000   Found Clover
+0:884  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+0:886  0:001  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+0:933  0:046  === [ GetEfiBootDeviceFromNvram ] =========================
+0:933  0:000  Default boot entry not found
+0:933  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+0:933  0:000  DefaultIndex=-1 and MainMenu.EntryCount=15
+1:300  0:367  GUI ready
+9:927  8:626  Found UEFI Acpi 2.0 RSDP at 77FFD014
+9:927  0:000  Saving ACPI tables from RSDP 77FFD014 to EFI\CLOVER\ACPI\origin ...
+9:927  0:000   77FFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml - Not Found
+10:806  0:879  Found UEFI Acpi 2.0 RSDP at 77FFD014
+10:806  0:000  Saving ACPI tables from RSDP 77FFD014 to EFI\CLOVER\ACPI\origin ...
+10:806  0:000   77FFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:806  0:000    (Xsdt: 77FC3188, Rsdt: 77FC30C4)
+10:806  0:000    77FC3188: 'XSDT', 'CB-01   ', Rev: 1, Len: 252 -> XSDT.aml - Not Found
+10:806  0:000    77FC30C4: 'RSDT', 'CB-01   ', Rev: 1, Len: 144 -> RSDT.aml - Not Found
+10:806  0:000   No Rsdt and Xsdt - exiting.
+11:206  0:399  Found UEFI Acpi 2.0 RSDP at 77FFD014
+11:206  0:000  Saving ACPI tables from RSDP 77FFD014 to EFI\CLOVER\ACPI\origin ...
+11:206  0:000   77FFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:206  0:000    (Xsdt: 77FC3188, Rsdt: 77FC30C4)
+11:206  0:000    77FC3188: 'XSDT', 'CB-01   ', Rev: 1, Len: 252
+11:206  0:000    77FC30C4: 'RSDT', 'CB-01   ', Rev: 1, Len: 144
+11:206  0:000    Tables in Xsdt: 27
+11:206  0:000    0. 77FE9000: 'FACP', 'CB-01   ', Rev: 5, Len: 244 -> FACP.aml - Not Found
+11:445  0:239  Found UEFI Acpi 2.0 RSDP at 77FFD014
+11:445  0:000  Saving ACPI tables from RSDP 77FFD014 to EFI\CLOVER\ACPI\origin ...
+11:445  0:000   77FFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:445  0:000    (Xsdt: 77FC3188, Rsdt: 77FC30C4)
+11:445  0:000    77FC3188: 'XSDT', 'CB-01   ', Rev: 1, Len: 252
+11:445  0:000    77FC30C4: 'RSDT', 'CB-01   ', Rev: 1, Len: 144
+11:445  0:000    Tables in Xsdt: 27
+11:445  0:000    0. 77FE9000: 'FACP', 'CB-01   ', Rev: 5, Len: 244
+11:445  0:000        (Dsdt: 77FC6000, Facs: 77F69000, XDsdt: 77FC6000, XFacs: 0)
+11:445  0:000        77FC6000: 'DSDT', 'CB-01   ', Rev: 2, Len: 125309 -> DSDT.aml - Not Found
+11:635  0:189  Found UEFI Acpi 2.0 RSDP at 77FFD014
+11:635  0:000  Saving ACPI tables from RSDP 77FFD014 to EFI\CLOVER\ACPI\origin ...
+11:635  0:000   77FFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:635  0:000    (Xsdt: 77FC3188, Rsdt: 77FC30C4)
+11:635  0:000    77FC3188: 'XSDT', 'CB-01   ', Rev: 1, Len: 252
+11:635  0:000    77FC30C4: 'RSDT', 'CB-01   ', Rev: 1, Len: 144
+11:635  0:000    Tables in Xsdt: 27
+11:635  0:000    0. 77FE9000: 'FACP', 'CB-01   ', Rev: 5, Len: 244
+11:635  0:000        (Dsdt: 77FC6000, Facs: 77F69000, XDsdt: 77FC6000, XFacs: 0)
+11:635  0:000        77FC6000: 'DSDT', 'CB-01   ', Rev: 2, Len: 125309
+11:637  0:001        77F69000: 'FACS', Ver: 2, Len: 64 -> FACS.aml - Not Found
+11:825  0:188  Found UEFI Acpi 2.0 RSDP at 77FFD014
+11:825  0:000  Saving ACPI tables from RSDP 77FFD014 to EFI\CLOVER\ACPI\origin ...
+11:825  0:000   77FFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:825  0:000    (Xsdt: 77FC3188, Rsdt: 77FC30C4)
+11:825  0:000    77FC3188: 'XSDT', 'CB-01   ', Rev: 1, Len: 252
+11:825  0:000    77FC30C4: 'RSDT', 'CB-01   ', Rev: 1, Len: 144
+11:825  0:000    Tables in Xsdt: 27
+11:825  0:000    0. 77FE9000: 'FACP', 'CB-01   ', Rev: 5, Len: 244
+11:825  0:000        (Dsdt: 77FC6000, Facs: 77F69000, XDsdt: 77FC6000, XFacs: 0)
+11:825  0:000        77FC6000: 'DSDT', 'CB-01   ', Rev: 2, Len: 125309
+11:827  0:001        77F69000: 'FACS', Ver: 2, Len: 64
+11:827  0:000    1. 77FFC000: 'TCPA', 'CB-01   ', Rev: 2, Len: 50 -> TCPA.aml - Not Found
+11:965  0:138  Found UEFI Acpi 2.0 RSDP at 77FFD014
+11:965  0:000  Saving ACPI tables from RSDP 77FFD014 to EFI\CLOVER\ACPI\origin ...
+11:965  0:000   77FFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:965  0:000    (Xsdt: 77FC3188, Rsdt: 77FC30C4)
+11:965  0:000    77FC3188: 'XSDT', 'CB-01   ', Rev: 1, Len: 252
+11:965  0:000    77FC30C4: 'RSDT', 'CB-01   ', Rev: 1, Len: 144
+11:965  0:000    Tables in Xsdt: 27
+11:965  0:000    0. 77FE9000: 'FACP', 'CB-01   ', Rev: 5, Len: 244
+11:965  0:000        (Dsdt: 77FC6000, Facs: 77F69000, XDsdt: 77FC6000, XFacs: 0)
+11:965  0:000        77FC6000: 'DSDT', 'CB-01   ', Rev: 2, Len: 125309
+11:967  0:001        77F69000: 'FACS', Ver: 2, Len: 64
+11:967  0:000    1. 77FFC000: 'TCPA', 'CB-01   ', Rev: 2, Len: 50
+11:967  0:000    2. 77FFB000: 'UEFI', 'CB-01   ', Rev: 1, Len: 566 -> UEFI.aml - Not Found
+12:675  0:707  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+12:675  0:000  === [ FixBiosDsdt ] =======================================
+12:675  0:000  VideoCard devID=0x191B8086
+12:675  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+12:675  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+12:678  0:002  Patching DSDT:
+12:678  0:000   - [rename HPET to XPET,  pair with SSDT-HPET.aml]: pattern 48504554, patched at: [ (FF1E) ]
+12:678  0:000   - [fix Return(SDSM) problem (not the perfect way)]: pattern 534D00A4, bin not found / already patched!
+12:678  0:000   - [fix Method ADBG problem (not the perfect way)]: pattern 4709A00E, bin not found / already patched!
+12:678  0:000   - [Rename _DSM to XDSM]: pattern 5F44534D, patched at: [ (2BAB) (140E) (27) (52) (C8D) (111) (64F) (468) (15B) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (28A) (1420) (EE) (EE) (EE) (EE) (EE) (D9) (D9) (12A) (12A) (12A) (277) (4A4) (10B9) (14A) (B8) (2F) (2E4F) (182A) (6C22) (12BB) (B13) (1FB) (1F7) (1F7) (216) (20C) (20D) (20D) (4C0) (8EF) (8F2) (8F2) ]
+12:678  0:000   - [Change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+12:678  0:000   - [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+12:679  0:000   - [Device AC rename to ADP1  pair with SSDT-ADP1 - credit syscl]: pattern 41435F5F, bin not found / already patched!
+12:679  0:000   - [Remove _STA method for PNP0C04 to load - credit syscl]: pattern 01012200, patched at: [ (10048) ]
+12:679  0:000   - [Device SBTN rename to SLPB pair with SSDT-SLPB - credit syscl]: pattern 5342544E, bin not found / already patched!
+12:679  0:000   - [Device ALSD rename to ALS0 - credit syscl]: pattern 414C5344, bin not found / already patched!
+12:679  0:000   - [Rename Method GPRW,02 to Method XPRW,02 and need add-on  SSDT-PRW.aml]: pattern 47505257, patched at: [ (11A72) ]
+12:680  0:000   - [Rename HS12 -> HS92 to avoid the patchmatic error, pair with SSDT-TB.aml]: pattern 48533132, patched at: [ (5342) ]
+12:680  0:000   - [Rename  Method BRT6,2 to BRTX,2, and need add-on  SSDT-BRT6.aml]: pattern 14204252, bin not found / already patched!
+12:680  0:000   - [rename _RMV to XRMV]: pattern 5F524D56, patched at: [ (D4CB) (131) ]
+12:680  0:000   - [change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml]: pattern 47465830, patched at: [ (F9) (11) (11) (11) (11) (11) (12) (16) (16) (16) (12) (11) (28D3) (C67D) (13) (5C) (51) (20) (19) (D) (46) (20) (19) (D) (39) (2E) (16BC) (1D) (5D) (1D) (1868) (5D9) (14) (4085) (1516) ]
+12:680  0:000   - [change HDAS to HDEF, optionally pair with SSDT-HDEF.aml]: pattern 48444153, patched at: [ (3D1D) (19E4) (86) (D) (A1) ]
+12:680  0:000   - [change OSID to OSSD, that because of the _OSI rename patch may cause problem]: pattern 4F534944, bin not found / already patched!
+12:681  0:000   - [change _OSI to XOSI, pair with SSDT-XOSI.aml]: pattern 5F4F5349, patched at: [ (11521) (3) (11) (18) (1C) (1C) (1A) (18) (18) (18) (18) (B47) ]
+12:681  0:000   - [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, patched at: [ (3F59) (9) ]
+12:681  0:000   - [change SAT0 to SATA, optionally pair with SSDT-SATA.aml]: pattern 53415430, patched at: [ (9E09) (30) (CBAB) (1508) (4EB) (29) (2E) (2E) (2E) ]
+12:681  0:000   - [change HECI to IMEI, optionally pair with SSDT-IMEI.aml]: pattern 48454349, patched at: [ (D648) ]
+12:681  0:000   - [change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, patched at: [ (10699) ]
+12:681  0:000   - [change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, bin not found / already patched!
+12:682  0:000   - [change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, bin not found / already patched!
+12:682  0:000   - [change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, patched at: [ (108EF) ]
+12:682  0:000   - [change Method(XWAK,0,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+12:682  0:000   - [change Method(XWAK,0,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+12:682  0:000   - [change Method(GPRW,2,N) to XPRW, pair with SSDT-PRW.aml]: pattern 47505257, bin not found / already patched!
+12:683  0:000   - [change Method(UPRW,2,..) to Method(XPRW,2,..), pair with SSDT-PRW.aml]: pattern 55505257, bin not found / already patched!
+12:683  0:000   - [change LANC Method(_PRW,0,S) to Method(XPRW,0,..), pair with SSDT-LANC_PRW.aml]: pattern 00001900, bin not found / already patched!
+12:683  0:000   - [Mutex SMIX,01 to SMIX,00]: pattern 5B01534D, bin not found / already patched!
+12:683  0:000   - [Mutex WMIX,01 to WMIX,00]: pattern 5B01574D, bin not found / already patched!
+12:683  0:000   - [Mutex ECMX,01 to ECMX,00]: pattern 5B014543, bin not found / already patched!
+12:684  0:000   - [Mutex ECSX,01 to ECSX,00]: pattern 5B014543, bin not found / already patched!
+12:684  0:000   - [Mutex ECM1,01 to ECM1,00]: pattern 5B014543, bin not found / already patched!
+12:684  0:000   - [Mutex QSEV,01 to QSEV,00]: pattern 5B015153, bin not found / already patched!
+12:684  0:000   - [Mutex ECAX,01 to ECAX,00]: pattern 5B014543, bin not found / already patched!
+12:684  0:000  first CPU found at 11E6B offset 11E6E
+12:684  0:000  score candidate at 11E67
+12:684  0:000  score inserted in acpi_cpu_score _PR_
+12:684  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+12:685  0:000  Found PCIROOTUID = 0
+12:685  0:000  Start RTC Fix
+12:685  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+12:685  0:000  found RTC had IRQNoFlag will move -3 bytes
+12:685  0:000  ...len=1DB53
+12:685  0:000  new size written to 10168 shift=0 len=1DB53
+12:685  0:000  len after correct outers 1DB53
+12:685  0:000  Start TMR Fix
+12:685  0:000  Start PIC Fix
+12:685  0:000  PIC size=A5 at FF97
+12:685  0:000  found CRS at FFAB size 8D
+12:685  0:000  found PIC had IRQNoFlag will move -3 bytes
+12:686  0:000  Fix Device PIC size -3
+12:686  0:000  Saving DSDT to EFI\CLOVER\ACPI\origin\DSDT-60040.aml failed - Not Found
+12:924  0:238  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+12:925  0:000  === [ FixBiosDsdt ] =======================================
+12:925  0:000  VideoCard devID=0x191B8086
+12:925  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+12:925  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+12:927  0:002  Patching DSDT:
+12:927  0:000   - [rename HPET to XPET,  pair with SSDT-HPET.aml]: pattern 48504554, patched at: [ (FF1E) ]
+12:927  0:000   - [fix Return(SDSM) problem (not the perfect way)]: pattern 534D00A4, bin not found / already patched!
+12:927  0:000   - [fix Method ADBG problem (not the perfect way)]: pattern 4709A00E, bin not found / already patched!
+12:928  0:000   - [Rename _DSM to XDSM]: pattern 5F44534D, patched at: [ (2BAB) (140E) (27) (52) (C8D) (111) (64F) (468) (15B) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (28A) (1420) (EE) (EE) (EE) (EE) (EE) (D9) (D9) (12A) (12A) (12A) (277) (4A4) (10B9) (14A) (B8) (2F) (2E4F) (182A) (6C22) (12BB) (B13) (1FB) (1F7) (1F7) (216) (20C) (20D) (20D) (4C0) (8EF) (8F2) (8F2) ]
+12:928  0:000   - [Change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+12:928  0:000   - [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+12:928  0:000   - [Device AC rename to ADP1  pair with SSDT-ADP1 - credit syscl]: pattern 41435F5F, bin not found / already patched!
+12:928  0:000   - [Remove _STA method for PNP0C04 to load - credit syscl]: pattern 01012200, patched at: [ (10048) ]
+12:928  0:000   - [Device SBTN rename to SLPB pair with SSDT-SLPB - credit syscl]: pattern 5342544E, bin not found / already patched!
+12:929  0:000   - [Device ALSD rename to ALS0 - credit syscl]: pattern 414C5344, bin not found / already patched!
+12:929  0:000   - [Rename Method GPRW,02 to Method XPRW,02 and need add-on  SSDT-PRW.aml]: pattern 47505257, patched at: [ (11A72) ]
+12:929  0:000   - [Rename HS12 -> HS92 to avoid the patchmatic error, pair with SSDT-TB.aml]: pattern 48533132, patched at: [ (5342) ]
+12:929  0:000   - [Rename  Method BRT6,2 to BRTX,2, and need add-on  SSDT-BRT6.aml]: pattern 14204252, bin not found / already patched!
+12:929  0:000   - [rename _RMV to XRMV]: pattern 5F524D56, patched at: [ (D4CB) (131) ]
+12:929  0:000   - [change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml]: pattern 47465830, patched at: [ (F9) (11) (11) (11) (11) (11) (12) (16) (16) (16) (12) (11) (28D3) (C67D) (13) (5C) (51) (20) (19) (D) (46) (20) (19) (D) (39) (2E) (16BC) (1D) (5D) (1D) (1868) (5D9) (14) (4085) (1516) ]
+12:929  0:000   - [change HDAS to HDEF, optionally pair with SSDT-HDEF.aml]: pattern 48444153, patched at: [ (3D1D) (19E4) (86) (D) (A1) ]
+12:930  0:000   - [change OSID to OSSD, that because of the _OSI rename patch may cause problem]: pattern 4F534944, bin not found / already patched!
+12:930  0:000   - [change _OSI to XOSI, pair with SSDT-XOSI.aml]: pattern 5F4F5349, patched at: [ (11521) (3) (11) (18) (1C) (1C) (1A) (18) (18) (18) (18) (B47) ]
+12:930  0:000   - [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, patched at: [ (3F59) (9) ]
+12:930  0:000   - [change SAT0 to SATA, optionally pair with SSDT-SATA.aml]: pattern 53415430, patched at: [ (9E09) (30) (CBAB) (1508) (4EB) (29) (2E) (2E) (2E) ]
+12:930  0:000   - [change HECI to IMEI, optionally pair with SSDT-IMEI.aml]: pattern 48454349, patched at: [ (D648) ]
+12:931  0:000   - [change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, patched at: [ (10699) ]
+12:931  0:000   - [change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, bin not found / already patched!
+12:931  0:000   - [change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, bin not found / already patched!
+12:931  0:000   - [change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, patched at: [ (108EF) ]
+12:931  0:000   - [change Method(XWAK,0,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+12:931  0:000   - [change Method(XWAK,0,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+12:932  0:000   - [change Method(GPRW,2,N) to XPRW, pair with SSDT-PRW.aml]: pattern 47505257, bin not found / already patched!
+12:932  0:000   - [change Method(UPRW,2,..) to Method(XPRW,2,..), pair with SSDT-PRW.aml]: pattern 55505257, bin not found / already patched!
+12:932  0:000   - [change LANC Method(_PRW,0,S) to Method(XPRW,0,..), pair with SSDT-LANC_PRW.aml]: pattern 00001900, bin not found / already patched!
+12:932  0:000   - [Mutex SMIX,01 to SMIX,00]: pattern 5B01534D, bin not found / already patched!
+12:932  0:000   - [Mutex WMIX,01 to WMIX,00]: pattern 5B01574D, bin not found / already patched!
+12:933  0:000   - [Mutex ECMX,01 to ECMX,00]: pattern 5B014543, bin not found / already patched!
+12:933  0:000   - [Mutex ECSX,01 to ECSX,00]: pattern 5B014543, bin not found / already patched!
+12:933  0:000   - [Mutex ECM1,01 to ECM1,00]: pattern 5B014543, bin not found / already patched!
+12:933  0:000   - [Mutex QSEV,01 to QSEV,00]: pattern 5B015153, bin not found / already patched!
+12:933  0:000   - [Mutex ECAX,01 to ECAX,00]: pattern 5B014543, bin not found / already patched!
+12:933  0:000  first CPU found at 11E6B offset 11E6E
+12:933  0:000  score candidate at 11E67
+12:933  0:000  score inserted in acpi_cpu_score _PR_
+12:933  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+12:934  0:000  Found PCIROOTUID = 0
+12:934  0:000  Start RTC Fix
+12:934  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+12:934  0:000  found RTC had IRQNoFlag will move -3 bytes
+12:934  0:000  ...len=1DB53
+12:934  0:000  new size written to 10168 shift=0 len=1DB53
+12:934  0:000  len after correct outers 1DB53
+12:934  0:000  Start TMR Fix
+12:935  0:000  Start PIC Fix
+12:935  0:000  PIC size=A5 at FF97
+12:935  0:000  found CRS at FFAB size 8D
+12:935  0:000  found PIC had IRQNoFlag will move -3 bytes
+12:935  0:000  Fix Device PIC size -3
+12:935  0:000  Saving DSDT to EFI\CLOVER\ACPI\origin\DSDT-60040.aml failed - Not Found
+13:144  0:209  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+13:145  0:000  === [ FixBiosDsdt ] =======================================
+13:145  0:000  VideoCard devID=0x191B8086
+13:145  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+13:145  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+13:147  0:002  Patching DSDT:
+13:147  0:000   - [rename HPET to XPET,  pair with SSDT-HPET.aml]: pattern 48504554, patched at: [ (FF1E) ]
+13:147  0:000   - [fix Return(SDSM) problem (not the perfect way)]: pattern 534D00A4, bin not found / already patched!
+13:147  0:000   - [fix Method ADBG problem (not the perfect way)]: pattern 4709A00E, bin not found / already patched!
+13:147  0:000   - [Rename _DSM to XDSM]: pattern 5F44534D, patched at: [ (2BAB) (140E) (27) (52) (C8D) (111) (64F) (468) (15B) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (28A) (1420) (EE) (EE) (EE) (EE) (EE) (D9) (D9) (12A) (12A) (12A) (277) (4A4) (10B9) (14A) (B8) (2F) (2E4F) (182A) (6C22) (12BB) (B13) (1FB) (1F7) (1F7) (216) (20C) (20D) (20D) (4C0) (8EF) (8F2) (8F2) ]
+13:148  0:000   - [Change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+13:148  0:000   - [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+13:148  0:000   - [Device AC rename to ADP1  pair with SSDT-ADP1 - credit syscl]: pattern 41435F5F, bin not found / already patched!
+13:148  0:000   - [Remove _STA method for PNP0C04 to load - credit syscl]: pattern 01012200, patched at: [ (10048) ]
+13:148  0:000   - [Device SBTN rename to SLPB pair with SSDT-SLPB - credit syscl]: pattern 5342544E, bin not found / already patched!
+13:148  0:000   - [Device ALSD rename to ALS0 - credit syscl]: pattern 414C5344, bin not found / already patched!
+13:149  0:000   - [Rename Method GPRW,02 to Method XPRW,02 and need add-on  SSDT-PRW.aml]: pattern 47505257, patched at: [ (11A72) ]
+13:149  0:000   - [Rename HS12 -> HS92 to avoid the patchmatic error, pair with SSDT-TB.aml]: pattern 48533132, patched at: [ (5342) ]
+13:149  0:000   - [Rename  Method BRT6,2 to BRTX,2, and need add-on  SSDT-BRT6.aml]: pattern 14204252, bin not found / already patched!
+13:149  0:000   - [rename _RMV to XRMV]: pattern 5F524D56, patched at: [ (D4CB) (131) ]
+13:149  0:000   - [change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml]: pattern 47465830, patched at: [ (F9) (11) (11) (11) (11) (11) (12) (16) (16) (16) (12) (11) (28D3) (C67D) (13) (5C) (51) (20) (19) (D) (46) (20) (19) (D) (39) (2E) (16BC) (1D) (5D) (1D) (1868) (5D9) (14) (4085) (1516) ]
+13:150  0:000   - [change HDAS to HDEF, optionally pair with SSDT-HDEF.aml]: pattern 48444153, patched at: [ (3D1D) (19E4) (86) (D) (A1) ]
+13:150  0:000   - [change OSID to OSSD, that because of the _OSI rename patch may cause problem]: pattern 4F534944, bin not found / already patched!
+13:150  0:000   - [change _OSI to XOSI, pair with SSDT-XOSI.aml]: pattern 5F4F5349, patched at: [ (11521) (3) (11) (18) (1C) (1C) (1A) (18) (18) (18) (18) (B47) ]
+13:150  0:000   - [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, patched at: [ (3F59) (9) ]
+13:150  0:000   - [change SAT0 to SATA, optionally pair with SSDT-SATA.aml]: pattern 53415430, patched at: [ (9E09) (30) (CBAB) (1508) (4EB) (29) (2E) (2E) (2E) ]
+13:151  0:000   - [change HECI to IMEI, optionally pair with SSDT-IMEI.aml]: pattern 48454349, patched at: [ (D648) ]
+13:151  0:000   - [change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, patched at: [ (10699) ]
+13:151  0:000   - [change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, bin not found / already patched!
+13:151  0:000   - [change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, bin not found / already patched!
+13:151  0:000   - [change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, patched at: [ (108EF) ]
+13:151  0:000   - [change Method(XWAK,0,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+13:151  0:000   - [change Method(XWAK,0,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+13:152  0:000   - [change Method(GPRW,2,N) to XPRW, pair with SSDT-PRW.aml]: pattern 47505257, bin not found / already patched!
+13:152  0:000   - [change Method(UPRW,2,..) to Method(XPRW,2,..), pair with SSDT-PRW.aml]: pattern 55505257, bin not found / already patched!
+13:152  0:000   - [change LANC Method(_PRW,0,S) to Method(XPRW,0,..), pair with SSDT-LANC_PRW.aml]: pattern 00001900, bin not found / already patched!
+13:152  0:000   - [Mutex SMIX,01 to SMIX,00]: pattern 5B01534D, bin not found / already patched!
+13:152  0:000   - [Mutex WMIX,01 to WMIX,00]: pattern 5B01574D, bin not found / already patched!
+13:152  0:000   - [Mutex ECMX,01 to ECMX,00]: pattern 5B014543, bin not found / already patched!
+13:152  0:000   - [Mutex ECSX,01 to ECSX,00]: pattern 5B014543, bin not found / already patched!
+13:152  0:000   - [Mutex ECM1,01 to ECM1,00]: pattern 5B014543, bin not found / already patched!
+13:152  0:000   - [Mutex QSEV,01 to QSEV,00]: pattern 5B015153, bin not found / already patched!
+13:153  0:000   - [Mutex ECAX,01 to ECAX,00]: pattern 5B014543, bin not found / already patched!
+13:153  0:000  first CPU found at 11E6B offset 11E6E
+13:153  0:000  score candidate at 11E67
+13:153  0:000  score inserted in acpi_cpu_score _PR_
+13:153  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+13:153  0:000  Found PCIROOTUID = 0
+13:153  0:000  Start RTC Fix
+13:154  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+13:154  0:000  found RTC had IRQNoFlag will move -3 bytes
+13:154  0:000  ...len=1DB53
+13:154  0:000  new size written to 10168 shift=0 len=1DB53
+13:154  0:000  len after correct outers 1DB53
+13:154  0:000  Start TMR Fix
+13:154  0:000  Start PIC Fix
+13:154  0:000  PIC size=A5 at FF97
+13:154  0:000  found CRS at FFAB size 8D
+13:154  0:000  found PIC had IRQNoFlag will move -3 bytes
+13:154  0:000  Fix Device PIC size -3
+13:154  0:000  Saving DSDT to EFI\CLOVER\ACPI\origin\DSDT-60040.aml failed - Not Found
+13:334  0:179  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+13:334  0:000  === [ FixBiosDsdt ] =======================================
+13:334  0:000  VideoCard devID=0x191B8086
+13:334  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+13:334  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+13:337  0:002  Patching DSDT:
+13:337  0:000   - [rename HPET to XPET,  pair with SSDT-HPET.aml]: pattern 48504554, patched at: [ (FF1E) ]
+13:337  0:000   - [fix Return(SDSM) problem (not the perfect way)]: pattern 534D00A4, bin not found / already patched!
+13:337  0:000   - [fix Method ADBG problem (not the perfect way)]: pattern 4709A00E, bin not found / already patched!
+13:337  0:000   - [Rename _DSM to XDSM]: pattern 5F44534D, patched at: [ (2BAB) (140E) (27) (52) (C8D) (111) (64F) (468) (15B) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (28A) (1420) (EE) (EE) (EE) (EE) (EE) (D9) (D9) (12A) (12A) (12A) (277) (4A4) (10B9) (14A) (B8) (2F) (2E4F) (182A) (6C22) (12BB) (B13) (1FB) (1F7) (1F7) (216) (20C) (20D) (20D) (4C0) (8EF) (8F2) (8F2) ]
+13:337  0:000   - [Change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+13:338  0:000   - [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+13:338  0:000   - [Device AC rename to ADP1  pair with SSDT-ADP1 - credit syscl]: pattern 41435F5F, bin not found / already patched!
+13:338  0:000   - [Remove _STA method for PNP0C04 to load - credit syscl]: pattern 01012200, patched at: [ (10048) ]
+13:338  0:000   - [Device SBTN rename to SLPB pair with SSDT-SLPB - credit syscl]: pattern 5342544E, bin not found / already patched!
+13:338  0:000   - [Device ALSD rename to ALS0 - credit syscl]: pattern 414C5344, bin not found / already patched!
+13:339  0:000   - [Rename Method GPRW,02 to Method XPRW,02 and need add-on  SSDT-PRW.aml]: pattern 47505257, patched at: [ (11A72) ]
+13:339  0:000   - [Rename HS12 -> HS92 to avoid the patchmatic error, pair with SSDT-TB.aml]: pattern 48533132, patched at: [ (5342) ]
+13:339  0:000   - [Rename  Method BRT6,2 to BRTX,2, and need add-on  SSDT-BRT6.aml]: pattern 14204252, bin not found / already patched!
+13:339  0:000   - [rename _RMV to XRMV]: pattern 5F524D56, patched at: [ (D4CB) (131) ]
+13:339  0:000   - [change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml]: pattern 47465830, patched at: [ (F9) (11) (11) (11) (11) (11) (12) (16) (16) (16) (12) (11) (28D3) (C67D) (13) (5C) (51) (20) (19) (D) (46) (20) (19) (D) (39) (2E) (16BC) (1D) (5D) (1D) (1868) (5D9) (14) (4085) (1516) ]
+13:340  0:000   - [change HDAS to HDEF, optionally pair with SSDT-HDEF.aml]: pattern 48444153, patched at: [ (3D1D) (19E4) (86) (D) (A1) ]
+13:340  0:000   - [change OSID to OSSD, that because of the _OSI rename patch may cause problem]: pattern 4F534944, bin not found / already patched!
+13:340  0:000   - [change _OSI to XOSI, pair with SSDT-XOSI.aml]: pattern 5F4F5349, patched at: [ (11521) (3) (11) (18) (1C) (1C) (1A) (18) (18) (18) (18) (B47) ]
+13:340  0:000   - [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, patched at: [ (3F59) (9) ]
+13:340  0:000   - [change SAT0 to SATA, optionally pair with SSDT-SATA.aml]: pattern 53415430, patched at: [ (9E09) (30) (CBAB) (1508) (4EB) (29) (2E) (2E) (2E) ]
+13:340  0:000   - [change HECI to IMEI, optionally pair with SSDT-IMEI.aml]: pattern 48454349, patched at: [ (D648) ]
+13:341  0:000   - [change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, patched at: [ (10699) ]
+13:341  0:000   - [change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, bin not found / already patched!
+13:341  0:000   - [change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, bin not found / already patched!
+13:341  0:000   - [change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, patched at: [ (108EF) ]
+13:341  0:000   - [change Method(XWAK,0,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+13:341  0:000   - [change Method(XWAK,0,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+13:342  0:000   - [change Method(GPRW,2,N) to XPRW, pair with SSDT-PRW.aml]: pattern 47505257, bin not found / already patched!
+13:342  0:000   - [change Method(UPRW,2,..) to Method(XPRW,2,..), pair with SSDT-PRW.aml]: pattern 55505257, bin not found / already patched!
+13:342  0:000   - [change LANC Method(_PRW,0,S) to Method(XPRW,0,..), pair with SSDT-LANC_PRW.aml]: pattern 00001900, bin not found / already patched!
+13:342  0:000   - [Mutex SMIX,01 to SMIX,00]: pattern 5B01534D, bin not found / already patched!
+13:342  0:000   - [Mutex WMIX,01 to WMIX,00]: pattern 5B01574D, bin not found / already patched!
+13:343  0:000   - [Mutex ECMX,01 to ECMX,00]: pattern 5B014543, bin not found / already patched!
+13:343  0:000   - [Mutex ECSX,01 to ECSX,00]: pattern 5B014543, bin not found / already patched!
+13:343  0:000   - [Mutex ECM1,01 to ECM1,00]: pattern 5B014543, bin not found / already patched!
+13:343  0:000   - [Mutex QSEV,01 to QSEV,00]: pattern 5B015153, bin not found / already patched!
+13:343  0:000   - [Mutex ECAX,01 to ECAX,00]: pattern 5B014543, bin not found / already patched!
+13:343  0:000  first CPU found at 11E6B offset 11E6E
+13:343  0:000  score candidate at 11E67
+13:343  0:000  score inserted in acpi_cpu_score _PR_
+13:343  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+13:344  0:000  Found PCIROOTUID = 0
+13:344  0:000  Start RTC Fix
+13:344  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+13:344  0:000  found RTC had IRQNoFlag will move -3 bytes
+13:344  0:000  ...len=1DB53
+13:344  0:000  new size written to 10168 shift=0 len=1DB53
+13:344  0:000  len after correct outers 1DB53
+13:344  0:000  Start TMR Fix
+13:344  0:000  Start PIC Fix
+13:345  0:000  PIC size=A5 at FF97
+13:345  0:000  found CRS at FFAB size 8D
+13:345  0:000  found PIC had IRQNoFlag will move -3 bytes
+13:345  0:000  Fix Device PIC size -3
+13:345  0:000  Saving DSDT to EFI\CLOVER\ACPI\origin\DSDT-60040.aml failed - Not Found
+13:514  0:169  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+13:514  0:000  === [ FixBiosDsdt ] =======================================
+13:514  0:000  VideoCard devID=0x191B8086
+13:514  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+13:514  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+13:517  0:002  Patching DSDT:
+13:517  0:000   - [rename HPET to XPET,  pair with SSDT-HPET.aml]: pattern 48504554, patched at: [ (FF1E) ]
+13:517  0:000   - [fix Return(SDSM) problem (not the perfect way)]: pattern 534D00A4, bin not found / already patched!
+13:517  0:000   - [fix Method ADBG problem (not the perfect way)]: pattern 4709A00E, bin not found / already patched!
+13:517  0:000   - [Rename _DSM to XDSM]: pattern 5F44534D, patched at: [ (2BAB) (140E) (27) (52) (C8D) (111) (64F) (468) (15B) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (36F) (28A) (1420) (EE) (EE) (EE) (EE) (EE) (D9) (D9) (12A) (12A) (12A) (277) (4A4) (10B9) (14A) (B8) (2F) (2E4F) (182A) (6C22) (12BB) (B13) (1FB) (1F7) (1F7) (216) (20C) (20D) (20D) (4C0) (8EF) (8F2) (8F2) ]
+13:517  0:000   - [Change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+13:517  0:000   - [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+13:518  0:000   - [Device AC rename to ADP1  pair with SSDT-ADP1 - credit syscl]: pattern 41435F5F, bin not found / already patched!
+13:518  0:000   - [Remove _STA method for PNP0C04 to load - credit syscl]: pattern 01012200, patched at: [ (10048) ]
+13:518  0:000   - [Device SBTN rename to SLPB pair with SSDT-SLPB - credit syscl]: pattern 5342544E, bin not found / already patched!
+13:518  0:000   - [Device ALSD rename to ALS0 - credit syscl]: pattern 414C5344, bin not found / already patched!
+13:518  0:000   - [Rename Method GPRW,02 to Method XPRW,02 and need add-on  SSDT-PRW.aml]: pattern 47505257, patched at: [ (11A72) ]
+13:519  0:000   - [Rename HS12 -> HS92 to avoid the patchmatic error, pair with SSDT-TB.aml]: pattern 48533132, patched at: [ (5342) ]
+13:519  0:000   - [Rename  Method BRT6,2 to BRTX,2, and need add-on  SSDT-BRT6.aml]: pattern 14204252, bin not found / already patched!
+13:519  0:000   - [rename _RMV to XRMV]: pattern 5F524D56, patched at: [ (D4CB) (131) ]
+13:519  0:000   - [change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml]: pattern 47465830, patched at: [ (F9) (11) (11) (11) (11) (11) (12) (16) (16) (16) (12) (11) (28D3) (C67D) (13) (5C) (51) (20) (19) (D) (46) (20) (19) (D) (39) (2E) (16BC) (1D) (5D) (1D) (1868) (5D9) (14) (4085) (1516) ]
+13:519  0:000   - [change HDAS to HDEF, optionally pair with SSDT-HDEF.aml]: pattern 48444153, patched at: [ (3D1D) (19E4) (86) (D) (A1) ]
+13:519  0:000   - [change OSID to OSSD, that because of the _OSI rename patch may cause problem]: pattern 4F534944, bin not found / already patched!
+13:520  0:000   - [change _OSI to XOSI, pair with SSDT-XOSI.aml]: pattern 5F4F5349, patched at: [ (11521) (3) (11) (18) (1C) (1C) (1A) (18) (18) (18) (18) (B47) ]
+13:520  0:000   - [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, patched at: [ (3F59) (9) ]
+13:520  0:000   - [change SAT0 to SATA, optionally pair with SSDT-SATA.aml]: pattern 53415430, patched at: [ (9E09) (30) (CBAB) (1508) (4EB) (29) (2E) (2E) (2E) ]
+13:520  0:000   - [change HECI to IMEI, optionally pair with SSDT-IMEI.aml]: pattern 48454349, patched at: [ (D648) ]
+13:520  0:000   - [change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, patched at: [ (10699) ]
+13:521  0:000   - [change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml]: pattern 5F505453, bin not found / already patched!
+13:521  0:000   - [change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, bin not found / already patched!
+13:521  0:000   - [change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5F57414B, patched at: [ (108EF) ]
+13:521  0:000   - [change Method(XWAK,0,N) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+13:521  0:000   - [change Method(XWAK,0,S) to ZWAK, pair with SSDT-PTSWAK.aml]: pattern 5857414B, bin not found / already patched!
+13:522  0:000   - [change Method(GPRW,2,N) to XPRW, pair with SSDT-PRW.aml]: pattern 47505257, bin not found / already patched!
+13:522  0:000   - [change Method(UPRW,2,..) to Method(XPRW,2,..), pair with SSDT-PRW.aml]: pattern 55505257, bin not found / already patched!
+13:522  0:000   - [change LANC Method(_PRW,0,S) to Method(XPRW,0,..), pair with SSDT-LANC_PRW.aml]: pattern 00001900, bin not found / already patched!
+13:522  0:000   - [Mutex SMIX,01 to SMIX,00]: pattern 5B01534D, bin not found / already patched!
+13:522  0:000   - [Mutex WMIX,01 to WMIX,00]: pattern 5B01574D, bin not found / already patched!
+13:523  0:000   - [Mutex ECMX,01 to ECMX,00]: pattern 5B014543, bin not found / already patched!
+13:523  0:000   - [Mutex ECSX,01 to ECSX,00]: pattern 5B014543, bin not found / already patched!
+13:523  0:000   - [Mutex ECM1,01 to ECM1,00]: pattern 5B014543, bin not found / already patched!
+13:523  0:000   - [Mutex QSEV,01 to QSEV,00]: pattern 5B015153, bin not found / already patched!
+13:523  0:000   - [Mutex ECAX,01 to ECAX,00]: pattern 5B014543, bin not found / already patched!
+13:524  0:000  first CPU found at 11E6B offset 11E6E
+13:524  0:000  score candidate at 11E67
+13:524  0:000  score inserted in acpi_cpu_score _PR_
+13:524  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+13:524  0:000  Found PCIROOTUID = 0
+13:524  0:000  Start RTC Fix
+13:524  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+13:524  0:000  found RTC had IRQNoFlag will move -3 bytes
+13:524  0:000  ...len=1DB53
+13:524  0:000  new size written to 10168 shift=0 len=1DB53
+13:524  0:000  len after correct outers 1DB53
+13:524  0:000  Start TMR Fix
+13:525  0:000  Start PIC Fix
+13:525  0:000  PIC size=A5 at FF97
+13:525  0:000  found CRS at FFAB size 8D
+13:525  0:000  found PIC had IRQNoFlag will move -3 bytes
+13:525  0:000  Fix Device PIC size -3
+13:525  0:000  Saving DSDT to EFI\CLOVER\ACPI\origin\DSDT-60040.aml failed - Not Found
+18:690  5:164  BootVariable of the entry is empty
+18:690  0:000  === [ StartLoader ] =======================================
+18:690  0:000  Finally: ExternalClock=25MHz BusSpeed=100251kHz CPU=2306MHz PIS: hw.busfrequency=100000000Hz
+18:690  0:000  Loading bootmgfw.efi  status=Success
+18:744  0:053  Closing events for Windows
+18:744  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+18:744  0:000  OtherOS: Found Acpi 2.0 RSDP 0x77FFD014
+18:744  0:000  RSDT at 77FC30C4
+18:744  0:000  XSDT at 77FC3188
+18:744  0:000  FADT pointer = 77FE9000
+18:744  0:000  Dir Windows not found. No patching will be done.
+18:751  0:006  Closing log
