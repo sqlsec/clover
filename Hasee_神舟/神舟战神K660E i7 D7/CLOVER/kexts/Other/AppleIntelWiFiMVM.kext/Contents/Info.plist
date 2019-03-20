@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>15D21</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleIntelWiFiMVM</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.opentools.AppleIntelWiFiMVM</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AppleIntelWiFiMVM</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.1d2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>0.1.1d2</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>7C1002</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>15C43</string>
+	<key>DTSDKName</key>
+	<string>macosx10.11</string>
+	<key>DTXcode</key>
+	<string>0721</string>
+	<key>DTXcodeBuild</key>
+	<string>7C1002</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>AppleIntelWiFiMVM</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.opentools.AppleIntelWiFiMVM</string>
+			<key>IOClass</key>
+			<string>AppleIntelWiFiMVM</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x08b18086 0x08b28086 0x08b38086 0x08b48086 0x31658086 0x31668086 0x095a8086 0x095b8086 0x24f38086 0x24f48086</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Aaron Mulder. All rights reserved.</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.7</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>15.0.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>15.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>15.0.0</string>
+	</dict>
+</dict>
+</plist>
