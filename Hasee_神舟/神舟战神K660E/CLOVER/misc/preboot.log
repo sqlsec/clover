@@ -1,0 +1,372 @@
+0:100  0:100  MemLog inited, TSC freq: 2394452505
+0:100  0:000  
+0:100  0:000  Now is 24.8.2014,  12:42:40 (GMT+2047)
+0:100  0:000  Starting Clover rev 2818 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,73A258FD-E809-4830-B645-C205439565D5,0x1000,0x71000) @C30EB218
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  UnicodeCollation Status=Success
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600
+0:100  0:000  SmbiosTable.Type17->Size = 8192
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0
+0:100  0:000  SmbiosTable.Type17->Size = 0
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0
+0:100  0:000  SmbiosTable.Type17->Size = 0
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0
+0:100  0:000  SmbiosTable.Type17->Size = 0
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 2818  running on W35xSS_370SS 
+0:100  0:000  ... with board W35xSS_370SS 
+0:100  0:000  Clover load options size = 0 bytes
+0:132  0:031  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:133  0:000  EFI\CLOVER\config.plist loaded: Success
+0:150  0:017  Found theme applestyle
+0:164  0:014  Found theme BGM
+0:185  0:020  Found theme black_green
+0:196  0:011  Found theme BLUEMAC
+0:199  0:003  Found theme BOOTCAMP
+0:204  0:004  Found theme ICLOVER
+0:206  0:002  Found theme magnifico
+0:208  0:002  Found theme METAL
+0:215  0:007  Found theme MRENGLES
+0:222  0:006  Found theme ORANGE
+0:225  0:003  Found theme OS_BOX
+0:227  0:002  Found theme OS_ONE
+0:229  0:002  Found theme Shield
+0:264  0:035  Found theme THINKPAD
+0:268  0:003  Loading early settings
+0:268  0:000  timeout set to 5
+0:268  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:268  0:000  KextsToPatch: 1 requested
+0:268  0:000  KextToPatch 0: AppleAHCIPort (External icons patch) Kext bin patch, data len: 8
+0:268  0:000  Fillin global patch settings
+0:268  0:000  Kernel and Kext Patches:
+0:268  0:000  	Allowed: y
+0:268  0:000  	Debug: n
+0:268  0:000  	KernelCpu: n
+0:268  0:000  	Lapic: n
+0:268  0:000  	AICPUPM: y
+0:268  0:000  	AppleRTC: y
+0:268  0:000  	KernelPm: y
+0:268  0:000  	FakeCPUID: 0x0
+0:268  0:000  	ATIController: <null string>
+0:268  0:000  	ATIDataLength: 0
+0:268  0:000  	0 Kexts to load
+0:268  0:000  	1 Kexts to patch
+0:268  0:000  		KextPatch[0]: 8 bytes, AppleAHCIPort
+0:268  0:000  Default theme: bluemac
+0:268  0:000  Hiding entries with string BOOTX64.EFI
+0:268  0:000  Hiding entries with string Windows
+0:268  0:000  CustomEDID ok
+0:268  0:000  LoadDrivers() start
+0:288  0:020  Loading CsmVideoDxe-64.efi
+0:289  0:001   - driver needs connecting
+0:289  0:000  Loading DataHubDxe-64.efi
+0:305  0:015  Loading EmuVariableUefi-64.efi
+0:310  0:005  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:311  0:001  Loading FSInject-64.efi
+0:312  0:001  Loading OsxAptioFixDrv-64.efi
+0:313  0:000  Loading OsxFatBinaryDrv-64.efi
+0:314  0:000  Loading PartitionDxe-64.efi
+0:315  0:000   - driver needs connecting
+0:315  0:000  Loading VBoxHfs-64.efi
+0:315  0:000   - driver needs connecting
+0:315  0:000  3 drivers needs connecting ...
+0:315  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:315  0:000  Partition driver loaded: CD disconnect Success
+0:315  0:000  Video driver loaded: disconnect Success
+0:728  0:412  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+4:256  3:527  LoadDrivers() end
+4:256  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+4:272  0:015  SetScreenResolution: 1920x1080 - already set
+4:272  0:000  Console modes reported: 4, available modes:
+4:272  0:000    Mode 1: 80x25
+4:272  0:000    Mode 2: 80x50
+4:272  0:000    Mode 3: 100x31 (current mode)
+4:272  0:000    Mode 4: 240x56
+4:272  0:000  SetScreenResolution: 1920x1080 - already set
+4:272  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,73A258FD-E809-4830-B645-C205439565D5,0x1000,0x71000)
+4:272  0:000  new SelfHandle=C30EB218
+4:272  0:000  CPU Vendor = 756E6547 Model=306C3
+4:272  0:000  The CPU supported turbo
+4:272  0:000  BrandString = Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz
+4:272  0:000  MSR 0xE2 before patch 1E008405
+4:272  0:000  MSR 0xE2 is locked, PM patches will be turned on
+4:272  0:000  MSR 0xE4              00021814
+4:272  0:000  MSR 0xCE              00080838_F3011800
+4:272  0:000  non-usable FLEX_RATIO = 50000
+4:272  0:000  corrected FLEX_RATIO = 40000
+4:272  0:000  MSR 0x1B0             00000000
+4:272  0:000  FSBFrequency=100MHz
+4:272  0:000  Corrected FSBFrequency=100MHz
+4:272  0:000  Vendor/Model/Stepping: 0x756E6547/0x3C/0x3
+4:272  0:000  Family/ExtFamily: 0x6/0x0
+4:272  0:000  MaxDiv/MinDiv: 24.0/8
+4:272  0:000  Turbo: 32/32/33/34
+4:272  0:000  Features: 0xBFEBFBFF
+4:272  0:000  Threads: 8
+4:272  0:000  Cores: 4
+4:272  0:000  FSB: 100 MHz
+4:272  0:000  CPU: 2400 MHz
+4:272  0:000  TSC: 2400 MHz
+4:272  0:000  PIS: 400 MHz
+4:272  0:000  PCI (00|00:00.00) : 8086 0C04 class=060000
+4:272  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+4:272  0:000  PCI (00|01:00.00) : 10DE 1392 class=030200
+4:272  0:000  PCI (00|00:02.00) : 8086 0416 class=030000
+4:272  0:000  Found GFX model=Intel HD Graphics 4600
+4:272  0:000  PCI (00|00:03.00) : 8086 0C0C class=040300
+4:272  0:000  PCI (00|00:14.00) : 8086 8C31 class=0C0330
+4:272  0:000  PCI (00|00:16.00) : 8086 8C3A class=078000
+4:272  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+4:272  0:000  PCI (00|00:1A.00) : 8086 8C2D class=0C0320
+4:272  0:000  PCI (00|00:1B.00) : 8086 8C20 class=040300
+4:272  0:000  PCI (00|00:1C.00) : 8086 8C10 class=060400
+4:272  0:000  PCI (00|00:1C.02) : 8086 8C14 class=060400
+4:272  0:000  PCI (00|03:00.00) : 168C 002A class=028000
+4:272  0:000  PCI (00|00:1C.03) : 8086 8C16 class=060400
+4:272  0:000  PCI (00|04:00.00) : 10EC 5287 class=FF0000
+4:272  0:000  PCI (00|04:00.01) : 10EC 8168 class=020000
+4:272  0:000  PCI (00|00:1D.00) : 8086 8C26 class=0C0320
+4:272  0:000  PCI (00|00:1F.00) : 8086 8C4B class=060100
+4:272  0:000  PCI (00|00:1F.02) : 8086 8C03 class=010601
+4:272  0:000  PCI (00|00:1F.03) : 8086 8C22 class=0C0500
+4:272  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+4:272  0:000  ScanSPD() start
+4:272  0:000  SMBus CmdReg: 0x3
+4:272  0:000  Scanning SMBus [8086:8C22], mmio: 0xF7A19004, ioport: 0xF040, hostc: 0x11
+4:286  0:014  SPD[0]: Type 11 @0x50 
+4:295  0:008  Not using XMP because it is not present
+4:295  0:000  DDR speed 1600MHz 
+4:295  0:000  Slot: 0 Type 24 8192MB 1600MHz Vendor=Kingston PartNo=99U5428-017.A00LF SerialNo=0309010E080C0B08 
+4:433  0:138  ScanSPD() end
+4:463  0:029  Get Acpi Tables List from RSDT:
+4:463  0:000   Found table: FACP  A M I len=132
+4:463  0:000   Found table: APIC  A M I len=146
+4:463  0:000   Found table: FPDT  A M I len=68
+4:463  0:000   Found table: ASF!   HCG len=165
+4:463  0:000   Found table: SSDT  PtidDevc len=5676
+4:463  0:000   Found table: SSDT  Cpu0Ist len=1337
+4:463  0:000   Found table: SSDT  CpuPm len=2776
+4:463  0:000   Found table: MCFG  A M I len=60
+4:463  0:000   Found table: HPET  A M I len=56
+4:463  0:000   Found table: SSDT  SataTabl len=789
+4:463  0:000   Found table: SSDT  SaSsdt  len=7358
+4:463  0:000   Found table: SSDT  SgPeg len=4102
+4:463  0:000   Found table: SSDT  OptTabl len=7346
+4:463  0:000   Found table: BGRT  A M I len=56
+4:463  0:000  Calibrated TSC frequency =2394452505 =2394MHz
+4:463  0:000  Loading main settings
+4:463  0:000  USB FixOwnership: true
+4:463  0:000  Dropping 3 tables
+4:463  0:000  Drop table 0 signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+4:463  0:000  set table: 54445353,       6D50757043 to drop:  true
+4:463  0:000  
+4:463  0:000  Drop table 1 signature="DMAR" (52414D44)
+4:463  0:000  set table: 52414D44,                0 to drop:
+4:463  0:000  Drop table 2 signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+4:463  0:000  set table: 54445353,   74734930757043 to drop:  true
+4:463  0:000  
+4:463  0:000  Config set Fixes will override FixMask mask!
+4:463  0:000     final mask=0000FFFF
+4:463  0:000  Config set EnableC7: +
+4:463  0:000  Config set EnableC6: +
+4:463  0:000  Config set EnableC4: +
+4:463  0:000  Config set EnableC2: +
+4:463  0:000  Config set ChassisType=0x8
+4:463  0:000  [ERROR] bin2hex '00:25:56:86:38:d9' syntax error
+4:463  0:000  Error in Second part of settings0: Not Found
+4:463  0:000  Oem smbios.plist not found at path: EFI\CLOVER\smbios.plist
+4:463  0:000  smbios.plist not found, not overriding config.plist
+4:463  0:000  found 11 volumes with blockIO
+4:463  0:000   0. Volume:
+4:463  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+4:486  0:022    Volume 'Whole Disc Boot', LegacyOS '', LegacyIcon(s) 'legacy', GUID = <null guid>
+4:486  0:000   1. Volume:
+4:486  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0xFFFF,0x0)
+4:486  0:000    found optical drive
+4:486  0:000    Volume 'Whole Disc Boot', LegacyOS '', LegacyIcon(s) 'legacy', GUID = <null guid>
+4:486  0:000   2. Volume:
+4:486  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)
+4:488  0:002    Volume 'Whole Disc Boot', LegacyOS '', LegacyIcon(s) 'legacy', GUID = <null guid>
+4:488  0:000   3. Volume:
+4:488  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,73A258FD-E809-4830-B645-C205439565D5,0x1000,0x71000)
+4:493  0:004    Result of bootcode detection: bootable <null string> (<null string>)
+4:521  0:028    Volume 'EFI', LegacyOS '', LegacyIcon(s) '<null string>', GUID = 73A258FD-E809-4830-B645-C205439565D5
+4:521  0:000    This is SelfVolume !!
+4:521  0:000   4. Volume:
+4:521  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,C20E7E28-6BB3-4F32-90F4-91957E3573FA,0x72000,0x25CB1000)
+4:533  0:012    Result of bootcode detection: bootable Windows (vista,win)
+4:548  0:014    Volume 'Work', LegacyOS 'Windows', LegacyIcon(s) 'vista,win', GUID = C20E7E28-6BB3-4F32-90F4-91957E3573FA
+4:548  0:000   5. Volume:
+4:548  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,53C1EF97-8844-4D7B-B8C6-0E82BDB89BE4,0x25D23000,0x25350000)
+4:567  0:019    Result of bootcode detection: bootable Windows (vista,win)
+4:568  0:000    Volume 'Life', LegacyOS 'Windows', LegacyIcon(s) 'vista,win', GUID = 53C1EF97-8844-4D7B-B8C6-0E82BDB89BE4
+4:568  0:000   6. Volume:
+4:568  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,9275B674-2AC4-40C1-95BF-287AE1F738CB,0x4B073000,0xC800000)
+4:585  0:017    Result of bootcode detection: bootable Windows (vista,win)
+4:594  0:008    Volume 'Storage', LegacyOS 'Windows', LegacyIcon(s) 'vista,win', GUID = 9275B674-2AC4-40C1-95BF-287AE1F738CB
+4:594  0:000   7. Volume:
+4:594  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,B285F52A-BAA1-42BB-A913-4752DC5D1D67,0x57873000,0xC800000)
+4:612  0:018    Result of bootcode detection: bootable Windows (vista,win)
+4:622  0:009    Volume 'VM', LegacyOS 'Windows', LegacyIcon(s) 'vista,win', GUID = B285F52A-BAA1-42BB-A913-4752DC5D1D67
+4:622  0:000   8. Volume:
+4:622  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,C8231F91-4092-4E5A-AF0D-A0CBD351B57D,0x64073000,0x10653D88)
+4:622  0:000    Volume 'MacOSX', LegacyOS '', LegacyIcon(s) '<null string>', GUID = C8231F91-4092-4E5A-AF0D-A0CBD351B57D
+4:622  0:000   9. Volume:
+4:622  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(1,GPT,9626BE67-CBA3-4828-B69A-5CDACB5DB5F6,0x1000,0x71000)
+4:623  0:000    Result of bootcode detection: bootable Windows (win)
+4:624  0:001    Volume 'EFI', LegacyOS 'Windows', LegacyIcon(s) 'win', GUID = 9626BE67-CBA3-4828-B69A-5CDACB5DB5F6
+4:624  0:000  10. Volume:
+4:624  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,27186B63-4D33-4F37-9570-CB69C59513D9,0x72000,0xEE0A000)
+4:625  0:000    Result of bootcode detection: bootable Windows (vista,win)
+4:625  0:000    Volume 'System', LegacyOS 'Windows', LegacyIcon(s) 'vista,win', GUID = 27186B63-4D33-4F37-9570-CB69C59513D9
+4:625  0:000  Searching volumes for latest nvram.plist ...
+4:625  0:000    3. Volume 'EFI', GUID = 73A258FD-E809-4830-B645-C205439565D5 - no nvram.plist - skipping!
+4:625  0:000    4. Volume 'Work', GUID = C20E7E28-6BB3-4F32-90F4-91957E3573FA - no nvram.plist - skipping!
+4:625  0:000    5. Volume 'Life', GUID = 53C1EF97-8844-4D7B-B8C6-0E82BDB89BE4 - no nvram.plist - skipping!
+4:625  0:000    6. Volume 'Storage', GUID = 9275B674-2AC4-40C1-95BF-287AE1F738CB - no nvram.plist - skipping!
+4:625  0:000    7. Volume 'VM', GUID = B285F52A-BAA1-42BB-A913-4752DC5D1D67 - no nvram.plist - skipping!
+4:625  0:000    8. Volume 'MacOSX', GUID = C8231F91-4092-4E5A-AF0D-A0CBD351B57D Modified = 2014-8-23 16:32:35 (3687525155000 ms) - newer - will use this one
+4:658  0:032    9. Volume 'EFI', GUID = 9626BE67-CBA3-4828-B69A-5CDACB5DB5F6 - no nvram.plist - skipping!
+4:658  0:000   10. Volume 'System', GUID = 27186B63-4D33-4F37-9570-CB69C59513D9 - no nvram.plist - skipping!
+4:658  0:000  Loading nvram.plist from Vol 'MacOSX' - loaded, size=1456
+4:671  0:013  PutNvramPlistToRtVars ...
+4:671  0:000   Adding Key: Clover.KeepBackupLimit: Data: Size = 1: Success
+4:671  0:000   Adding Key: Clover.LogEveryBoot: Data: Size = 2: Success
+4:671  0:000   Adding Key: Clover.LogLineCount: Data: Size = 4: Success
+4:671  0:000   Adding Key: Clover.MountEFI: Data: Size = 3: Success
+4:671  0:000   Adding Key: Clover.Theme: Data: Size = 7: Success
+4:671  0:000   Skipping EmuVariableUefiPresent
+4:671  0:000   Adding Key: LocationServicesEnabled: Data: Size = 1: Success
+4:671  0:000   Skipping OsxAptioFixDrv-RelocBase
+4:671  0:000   Adding Key: backlight-level: Data: Size = 2: Success
+4:671  0:000   Adding Key: bluetoothActiveControllerInfo: Data: Size = 16: Success
+4:671  0:000   Adding Key: efi-boot-device: Data: Size = 216: Success
+4:671  0:000   Adding Key: efi-boot-device-data: Data: Size = 74: Success
+4:671  0:000   Adding Key: fmm-computer-name: Data: Size = 14: Success
+4:671  0:000   Adding Key: prev-lang:kbd: Data: Size = 4: Success
+4:671  0:000   Adding Key: security-mode: String: Size = 4, Val = 'none': Success
+4:671  0:000  Invalidating BuiltinIcons...
+4:705  0:033  Using theme 'bluemac' (EFI\CLOVER\themes\bluemac)
+4:705  0:000  theme bluemac defined in NVRAM found and theme.plist parsed
+4:705  0:000  OS main and drive as badge
+4:721  0:015  font GoB_PTMono_10W.png loaded from themedir
+4:721  0:000  Font loaded: ImageWidth=176 ImageHeight=288
+4:721  0:000  Font 2 prepared WxH=11x18 CharWidth=10
+4:721  0:000  Choosing theme bluemac
+4:721  0:000  Custom entries start
+4:721  0:000  Custom entries finish
+4:721  0:000  Scanning loaders...
+4:721  0:000   0: 'Whole Disc Boot' no file system
+4:721  0:000   1: 'Whole Disc Boot' no file system
+4:721  0:000   2: 'Whole Disc Boot' no file system
+4:721  0:000   3: 'EFI'
+5:756  1:035    hiding entry: \EFI\BOOT\BOOTX64.efi
+5:756  0:000   4: 'Work'
+5:796  0:040   5: 'Life'
+5:836  0:040   6: 'Storage'
+5:876  0:040   7: 'VM'
+5:916  0:040   8: 'MacOSX'
+5:975  0:058  Check if volume Is Hibernated:
+5:975  0:000  Check sleep image 'by signature':
+6:033  0:058  read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+6:033  0:000  SleepImage name from pref: ImageVolume = 'MacOSX', ImageName = '\private\var\vm\sleepimage'
+6:069  0:035  Reading first 512 bytes of sleepimage ...
+6:077  0:008   OurBlockIoRead: Lba=65C73078, Offset=CB8E60F000 (BlockSize=512)
+6:077  0:000   sig lion: 7A7A7A7A
+6:077  0:000   sig snow: 0
+6:077  0:000   no valid sleep image offset was found
+6:077  0:000  Reading completed -> Success
+6:077  0:000   sleepimage offset could not be acquired
+6:077  0:000   hibernated: no - sign
+6:099  0:021  loader patch settings
+6:099  0:000  Kernel and Kext Patches:
+6:099  0:000  	Allowed: y
+6:099  0:000  	Debug: n
+6:099  0:000  	KernelCpu: n
+6:099  0:000  	Lapic: n
+6:099  0:000  	AICPUPM: y
+6:099  0:000  	AppleRTC: y
+6:099  0:000  	KernelPm: y
+6:099  0:000  	FakeCPUID: 0x0
+6:099  0:000  	ATIController: <null string>
+6:099  0:000  	ATIDataLength: 0
+6:099  0:000  	0 Kexts to load
+6:099  0:000  	1 Kexts to patch
+6:099  0:000  		KextPatch[0]: 8 bytes, AppleAHCIPort
+6:099  0:000  found PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,C8231F91-4092-4E5A-AF0D-A0CBD351B57D,0x64073000,0x10653D88)\System\Library\CoreServices\boot.efi
+6:142  0:042   9: 'EFI'
+6:147  0:005  loader patch settings
+6:147  0:000  Kernel and Kext Patches:
+6:147  0:000  	Allowed: y
+6:147  0:000  	Debug: n
+6:147  0:000  	KernelCpu: n
+6:147  0:000  	Lapic: n
+6:147  0:000  	AICPUPM: y
+6:147  0:000  	AppleRTC: y
+6:147  0:000  	KernelPm: y
+6:147  0:000  	FakeCPUID: 0x0
+6:147  0:000  	ATIController: <null string>
+6:147  0:000  	ATIDataLength: 0
+6:147  0:000  	0 Kexts to load
+6:147  0:000  	1 Kexts to patch
+6:147  0:000  		KextPatch[0]: 8 bytes, AppleAHCIPort
+6:147  0:000  found PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(1,GPT,9626BE67-CBA3-4828-B69A-5CDACB5DB5F6,0x1000,0x71000)\EFI\Microsoft\Boot\bootmgfw.efi
+6:191  0:043    hiding entry: \EFI\BOOT\BOOTX64.efi
+6:191  0:000  10: 'System'
+6:231  0:040  Custom legacy start
+6:231  0:000  Custom legacy end
+6:231  0:000  Scanning legacy ...
+6:231  0:000   0: 'Whole Disc Boot' (legacy) not legacy
+6:231  0:000   1: 'Whole Disc Boot' (legacy) not legacy
+6:231  0:000   2: 'Whole Disc Boot' (legacy) not legacy
+6:231  0:000   3: 'EFI' (<null string>) not legacy
+6:231  0:000   4: 'Work' (vista,win) add legacy
+6:235  0:003   added 'Boot Windows from Work' OSType=2 Icon=vista,win
+6:235  0:000   5: 'Life' (vista,win) add legacy
+6:238  0:003   added 'Boot Windows from Life' OSType=2 Icon=vista,win
+6:238  0:000   6: 'Storage' (vista,win) add legacy
+6:242  0:003   added 'Boot Windows from Storage' OSType=2 Icon=vista,win
+6:242  0:000   7: 'VM' (vista,win) add legacy
+6:245  0:003   added 'Boot Windows from VM' OSType=2 Icon=vista,win
+6:245  0:000   8: 'MacOSX' (<null string>) not legacy
+6:245  0:000   9: 'EFI' (win) add legacy
+6:249  0:003   added 'Boot Windows from EFI' OSType=2 Icon=win
+6:249  0:000  10: 'System' (vista,win) add legacy
+6:252  0:003   added 'Boot Windows from System' OSType=2 Icon=vista,win
+6:252  0:000  Custom tool start
+6:252  0:000  Custom tool end
+6:275  0:022  found tool \EFI\CLOVER\tools\Shell64U.efi
+6:275  0:000  Checking EFI partition Volume 3 for Clover
+6:275  0:000   Found Clover
+6:276  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+6:277  0:000  FindBootOptionForFile: C30EB218, \EFI\CLOVER\CLOVERX64.EFI
+6:277  0:000  BootOrder: 2: Boot0005, Boot0006
+6:277  0:000   Searching for: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,73A258FD-E809-4830-B645-C205439565D5,0x1000,0x71000)\EFI\CLOVER\CLOVERX64.EFI (Len: 130)
+6:277  0:000   and for: HD(1,GPT,73A258FD-E809-4830-B645-C205439565D5,0x1000,0x71000)\EFI\CLOVER\CLOVERX64.EFI (Len: 102)
+6:277  0:000  FindBootOptionForFile: Not found.
+6:277  0:000  Checking EFI partition Volume 9 for Clover
+6:281  0:003  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+6:297  0:015  GetEfiBootDeviceFromNvram:
+6:297  0:000   efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,C8231F91-4092-4E5A-AF0D-A0CBD351B57D,0x64073000,0x10653D88)
+6:297  0:000   Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,C8231F91-4092-4E5A-AF0D-A0CBD351B57D,0x64073000,0x10653D88)'
+6:297  0:000   LoaderPath: '<null string>'
+6:297  0:000   Guid = C8231F91-4092-4E5A-AF0D-A0CBD351B57D
+6:297  0:000   volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,C8231F91-4092-4E5A-AF0D-A0CBD351B57D,0x64073000,0x10653D88)
+6:297  0:000   searching for that partition
+6:297  0:000    found entry 0. 'Boot Mac OS X from MacOSX', Volume 'MacOSX'
+6:297  0:000  Boot redirected to Entry 0. 'Boot Mac OS X from MacOSX'
+6:297  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+6:297  0:000  DefaultIndex=0 and MainMenu.EntryCount=14
+6:297  0:000  Use anime=rotary_logo_bluemac frames=4
+6:313  0:016   found 4 frames of the anime
+6:923  0:610  Found Mouse device:
+6:925  0:002  GUI ready

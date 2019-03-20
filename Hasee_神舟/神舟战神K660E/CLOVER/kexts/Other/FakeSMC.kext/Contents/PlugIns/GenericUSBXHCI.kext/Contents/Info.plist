@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>GenericUSBXHCI</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.osx86.kexts.GenericUSBXHCI</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>GenericUSBXHCI</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.7</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.2.7</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>GenericUSBXHCI</key>
+		<dict>
+			<key>ASMediaEDLTAFix</key>
+			<true/>
+			<key>CFBundleIdentifier</key>
+			<string>net.osx86.kexts.GenericUSBXHCI</string>
+			<key>IOClass</key>
+			<string>GenericUSBXHCI</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x0c033000</string>
+			<key>IOPCIPauseCompatible</key>
+			<true/>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOProbeScore</key>
+			<integer>1</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOUserClientClass</key>
+			<string>IOUSBControllerUserClient</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012-2013 Zenith432. All rights reserved.</string>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.0.0</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.6</string>
+		<key>com.apple.iokit.IOUSBFamily</key>
+		<string>5.0.0a1</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>10.6</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>10.6</string>
+		<key>com.apple.kpi.mach</key>
+		<string>10.6</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>10.6</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
