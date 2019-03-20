@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>12D49</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>AppleBacklightExpert</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleBacklightExpert</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0.4, AppleBacklightExpert, Copyright 2000-2012 Apple Inc. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.AppleBacklightExpert</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AppleBacklightExpert</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.4</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.4</string>
+	<key>DTCompiler</key>
+	<string></string>
+	<key>DTPlatformBuild</key>
+	<string>4F250</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>12D49</string>
+	<key>DTSDKName</key>
+	<string></string>
+	<key>DTXcode</key>
+	<string>0440</string>
+	<key>DTXcodeBuild</key>
+	<string>4F250</string>
+	<key>IOKitPersonalities</key>
+	<dict/>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.0</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOGraphicsFamily</key>
+		<string>1.1</string>
+		<key>com.apple.iokit.IONDRVSupport</key>
+		<string>1.1</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.3.1</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.3.1</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.3.1</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Safe Boot</string>
+</dict>
+</plist>
