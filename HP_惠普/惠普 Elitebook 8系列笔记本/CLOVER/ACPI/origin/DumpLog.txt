@@ -1,0 +1,58 @@
+55:363  53:376  Found UEFI Acpi 2.0 RSDP at ACFFE014
+55:363  0:000  Saving ACPI tables from RSDP ACFFE014 to EFI\CLOVER\ACPI\origin ...
+55:363  0:000   ACFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+55:388  0:025    (Xsdt: ACFFE120, Rsdt: ACFFE0AC)
+55:388  0:000    ACFFE120: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 116 -> XSDT.aml
+55:409  0:021    ACFFE0AC: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 76 -> RSDT.aml
+55:433  0:024    Tables in Xsdt: 10
+55:433  0:000    0. ACFFC000: 'FACP', '167C', Rev: 3, Len: 244 -> FACP.aml
+55:454  0:021        (Dsdt: ACFD2000, Facs: ACF99000, XDsdt: ACFD2000, XFacs: ACF99000)
+55:454  0:000        ACFD2000: 'DSDT', '167C', Rev: 2, Len: 149738 -> DSDT.aml
+55:489  0:034        ACF99000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+55:513  0:024    1. ACFFB000: 'HPET', '167C', Rev: 1, Len: 56 -> HPET.aml
+55:537  0:024    2. ACFFA000: 'APIC', '167C', Rev: 1, Len: 188 -> APIC.aml
+55:558  0:020    3. ACFF9000: 'MCFG', '167C', Rev: 1, Len: 60 -> MCFG.aml
+55:578  0:019    4. ACFF8000: 'ASF!', '167C', Rev: 32, Len: 165 -> ASF!.aml
+55:598  0:020    5. ACFCF000: 'SSDT', 'SataAhci', Rev: 1, Len: 643 -> SSDT-0-SataAhci.aml
+55:621  0:022    6. ACFCE000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162 -> SSDT-1-PtidDevc.aml
+55:632  0:011    7. ACFCD000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1932 -> SSDT-2-Cpu0Ist.aml
+55:644  0:012    8. ACFCC000: 'SSDT', 'CpuPm', Rev: 1, Len: 2481 -> SSDT-3-CpuPm.aml (Found hidden SSDT 4 pcs)
+55:660  0:015        * AA73C018: 'A¼Ç', 'ptal0', Rev: 1, Len: 4055040  41 BC C7 02 00 E0 3D 00 01 00 00 00 00 00 00 00 
+55:660  0:000        * ACE67A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 82 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x3_0-ApIst.aml
+55:674  0:013        * ACE66718: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1692  53 53 44 54 9C 06 00 00 01 D2 50 6D 52 65 66 00 Internal length = 1692 -> SSDT-x3_1-Cpu0Cst.aml
+55:695  0:021        * ACE65D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F8 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_2-ApCst.aml
+55:708  0:012  
+55:708  0:000    9. ACFCB000: 'SSDT', 'SgTabl', Rev: 1, Len: 3008 -> SSDT-4-SgTabl.aml
+55:720  0:012    Tables in Rsdt: 10
+55:720  0:000    0. ACFFC000: 'FACP', '167C', Rev: 3, Len: 244
+55:720  0:000        (Dsdt: ACFD2000, Facs: ACF99000, XDsdt: ACFD2000, XFacs: ACF99000)
+55:720  0:000        ACFD2000: 'DSDT', '167C', Rev: 2, Len: 149738
+55:724  0:004        ACF99000: 'FACS', Ver: 1, Len: 64
+55:724  0:000    1. ACFFB000: 'HPET', '167C', Rev: 1, Len: 56
+55:724  0:000    2. ACFFA000: 'APIC', '167C', Rev: 1, Len: 188
+55:724  0:000    3. ACFF9000: 'MCFG', '167C', Rev: 1, Len: 60
+55:724  0:000    4. ACFF8000: 'ASF!', '167C', Rev: 32, Len: 165
+55:724  0:000    5. ACFCF000: 'SSDT', 'SataAhci', Rev: 1, Len: 643
+55:724  0:000    6. ACFCE000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+55:724  0:000    7. ACFCD000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1932
+55:724  0:000    8. ACFCC000: 'SSDT', 'CpuPm', Rev: 1, Len: 2481
+55:724  0:000    9. ACFCB000: 'SSDT', 'SgTabl', Rev: 1, Len: 3008
+55:724  0:000  Found UEFI Acpi 1.0 RSDP at ACFFE000
+55:724  0:000  Printing ACPI tables from RSDP ACFFE000 ...
+55:724  0:000   ACFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+55:724  0:000    (Rsdt: ACFFE038)
+55:724  0:000    ACFFE038: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 76
+55:724  0:000    Tables in Rsdt: 10
+55:724  0:000    0. ACFFD000: 'FACP', '167C', Rev: 1, Len: 116
+55:724  0:000        (Dsdt: ACFD2000, Facs: ACF99000)
+55:724  0:000        ACFD2000: 'DSDT', '167C', Rev: 2, Len: 149738
+55:728  0:003        ACF99000: 'FACS', Ver: 1, Len: 64
+55:728  0:000    1. ACFFB000: 'HPET', '167C', Rev: 1, Len: 56
+55:728  0:000    2. ACFFA000: 'APIC', '167C', Rev: 1, Len: 188
+55:728  0:000    3. ACFF9000: 'MCFG', '167C', Rev: 1, Len: 60
+55:728  0:000    4. ACFF8000: 'ASF!', '167C', Rev: 32, Len: 165
+55:728  0:000    5. ACFCF000: 'SSDT', 'SataAhci', Rev: 1, Len: 643
+55:728  0:000    6. ACFCE000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+55:728  0:000    7. ACFCD000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1932
+55:728  0:000    8. ACFCC000: 'SSDT', 'CpuPm', Rev: 1, Len: 2481
+55:728  0:000    9. ACFCB000: 'SSDT', 'SgTabl', Rev: 1, Len: 3008
