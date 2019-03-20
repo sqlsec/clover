@@ -1,0 +1,61 @@
+配置清单
+CPU  I5-5200U
+显卡   HD5500
+声卡   ALC233
+无线网卡  AR956x
+有线网卡  RTL8111
+
+音频使用AppleALC驱动
+http://bbs.pcbeta.com/viewthread-1733031-1-2.html
+config注入id 3
+
+
+<key>Audio</key>
+<dict>
+	<key>Inject</key>
+	<string>3</string>
+</dict>
+
+
+WIFI-AR956x
+WIFI采用国外大神修改版的IO8021Family
+方法如下
+首先提取10.11.6下的corecapture.kext
+替换掉10.12.3下的corecapture.kext
+
+然后把10.12.3下的IO8021FamilyV2删除
+
+用附件提供的IO8021Family替换掉10.12.3
+
+原来的IO8021Family驱动
+
+
+
+显卡这方面无需多讲解
+hd5500依赖0x16160002
+
+
+<key>ig-platform-id</key>
+	<string>0x16160002</string>
+
+途中出现的问题
+1.安装过程中出现service exited with abnormal code 1
+解决方法：
+在config的KernelLapic中patch以下代码
+
+<dict><key>Comment</key>
+<string>remove port limit</string>
+<key>Disabled</key>
+<false/>
+<key>Find</key>
+<data>g72M/v//EA==</data>
+<key>Name</key>
+<string>AppleUSBXHCIPCI</string>
+<key>Replace</key>
+<data>g72M/v//Fg==</data>
+</dict>
+
+
+2.无法载入偏好设置“显示器”
+解决方法
+提取EDID制作合适的display驱动（工具／驱动／楼下提供）
