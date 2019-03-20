@@ -1,0 +1,82 @@
+1:211  0:018  Found UEFI Acpi 2.0 RSDP at 9CFFE014
+1:211  0:000  Saving ACPI tables from RSDP 9CFFE014 to EFI\CLOVER\ACPI\origin ...
+1:211  0:000   9CFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+1:221  0:009    (Xsdt: 9CFFE210, Rsdt: 9CFFE124)
+1:221  0:000    9CFFE210: 'XSDT', 'PARADISE', Rev: 1, Len: 180 -> XSDT.aml
+1:224  0:002    9CFFE124: 'RSDT', 'PARADISE', Rev: 1, Len: 108 -> RSDT.aml
+1:226  0:002    Tables in Xsdt: 18
+1:226  0:000    0. 9CFF8000: 'FACP', 'PARADISE', Rev: 5, Len: 268 -> FACP.aml
+1:229  0:002        (Dsdt: 9CFE6000, Facs: 9CFAB000, XDsdt: 9CFE6000, XFacs: 0)
+1:229  0:000        9CFE6000: 'DSDT', 'PARADISE', Rev: 1, Len: 58777 -> DSDT.aml
+1:233  0:004        9CFAB000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+1:237  0:003    1. 9CFFD000: 'UEFI', 'PARADISE', Rev: 1, Len: 566 -> UEFI.aml
+1:240  0:002    2. 9CFFB000: 'FPDT', 'PARADISE', Rev: 1, Len: 68 -> FPDT.aml
+1:242  0:002    3. 9CFF9000: 'ASF!', 'PARADISE', Rev: 32, Len: 165 -> ASF!.aml
+1:244  0:002    4. 9CFF7000: 'HPET', 'PARADISE', Rev: 1, Len: 56 -> HPET.aml
+1:246  0:002    5. 9CFF6000: 'APIC', 'PARADISE', Rev: 3, Len: 140 -> APIC.aml
+1:249  0:002    6. 9CFF5000: 'MCFG', 'PARADISE', Rev: 1, Len: 60 -> MCFG.aml
+1:252  0:002    7. 9CFE5000: 'SLIC', 'PARADISE', Rev: 1, Len: 374 -> SLIC.aml
+1:255  0:002    8. 9CFE4000: 'SSDT', 'PARADISE', Rev: 1, Len: 2014 -> SSDT-0.aml
+1:257  0:002    9. 9CFE2000: 'BOOT', 'PARADISE', Rev: 1, Len: 40 -> BOOT.aml
+1:261  0:003    10. 9CFE1000: 'LPIT', 'PARADISE', Rev: 1, Len: 148 -> LPIT.aml
+1:270  0:009    11. 9CFDF000: 'ASPT', 'PARADISE', Rev: 7, Len: 52 -> ASPT.aml
+1:273  0:002    12. 9CFDE000: 'DBGP', 'PARADISE', Rev: 1, Len: 52 -> DBGP.aml
+1:276  0:003    13. 9CFD6000: 'SSDT', 'PARADISE', Rev: 1, Len: 1337 -> SSDT-1.aml
+1:279  0:002    14. 9CFD5000: 'SSDT', 'PARADISE', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+1:279  0:000        * 83D05A98: '', '', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00       * 9CE48618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 B9 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-3x.aml
+1:281  0:002        * 9CE48C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 99 50 6D 52 65 66 00 Internal length = 979 -> SSDT-4x.aml
+1:284  0:003        * 9CE47D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 D5 50 6D 52 65 66 00 Internal length = 281 -> SSDT-5x.aml
+1:287  0:002   -> SSDT-2.aml
+1:290  0:002    15. 9CFD1000: 'SSDT', 'PARADISE', Rev: 1, Len: 14997 -> SSDT-6.aml
+1:293  0:002    16. 9CFCC000: 'SSDT', 'PARADISE', Rev: 1, Len: 16117 -> SSDT-7.aml
+1:302  0:009    17. 9CFD0000: 'BGRT', 'PARADISE', Rev: 1, Len: 56 -> BGRT.aml
+1:305  0:002    Tables in Rsdt: 18
+1:305  0:000    0. 9CFF8000: 'FACP', 'PARADISE', Rev: 5, Len: 268
+1:305  0:000        (Dsdt: 9CFE6000, Facs: 9CFAB000, XDsdt: 9CFE6000, XFacs: 0)
+1:305  0:000        9CFE6000: 'DSDT', 'PARADISE', Rev: 1, Len: 58777
+1:306  0:001        9CFAB000: 'FACS', Ver: 2, Len: 64
+1:306  0:000    1. 9CFFD000: 'UEFI', 'PARADISE', Rev: 1, Len: 566
+1:306  0:000    2. 9CFFB000: 'FPDT', 'PARADISE', Rev: 1, Len: 68
+1:306  0:000    3. 9CFF9000: 'ASF!', 'PARADISE', Rev: 32, Len: 165
+1:306  0:000    4. 9CFF7000: 'HPET', 'PARADISE', Rev: 1, Len: 56
+1:306  0:000    5. 9CFF6000: 'APIC', 'PARADISE', Rev: 3, Len: 140
+1:306  0:000    6. 9CFF5000: 'MCFG', 'PARADISE', Rev: 1, Len: 60
+1:306  0:000    7. 9CFE5000: 'SLIC', 'PARADISE', Rev: 1, Len: 374
+1:306  0:000    8. 9CFE4000: 'SSDT', 'PARADISE', Rev: 1, Len: 2014
+1:306  0:000    9. 9CFE2000: 'BOOT', 'PARADISE', Rev: 1, Len: 40
+1:306  0:000    10. 9CFE1000: 'LPIT', 'PARADISE', Rev: 1, Len: 148
+1:306  0:000    11. 9CFDF000: 'ASPT', 'PARADISE', Rev: 7, Len: 52
+1:306  0:000    12. 9CFDE000: 'DBGP', 'PARADISE', Rev: 1, Len: 52
+1:306  0:000    13. 9CFD6000: 'SSDT', 'PARADISE', Rev: 1, Len: 1337
+1:306  0:000    14. 9CFD5000: 'SSDT', 'PARADISE', Rev: 1, Len: 2776
+1:306  0:000    15. 9CFD1000: 'SSDT', 'PARADISE', Rev: 1, Len: 14997
+1:306  0:000    16. 9CFCC000: 'SSDT', 'PARADISE', Rev: 1, Len: 16117
+1:306  0:000    17. 9CFD0000: 'BGRT', 'PARADISE', Rev: 1, Len: 56
+1:306  0:000  Found UEFI Acpi 1.0 RSDP at 9CFFE000
+1:306  0:000  Printing ACPI tables from RSDP 9CFFE000 ...
+1:306  0:000   9CFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+1:306  0:000    (Rsdt: 9CFFE038)
+1:306  0:000    9CFFE038: 'RSDT', 'PARADISE', Rev: 1, Len: 108
+1:306  0:000    Tables in Rsdt: 18
+1:306  0:000    0. 9CFF8000: 'FACP', 'PARADISE', Rev: 5, Len: 268
+1:306  0:000        (Dsdt: 9CFE6000, Facs: 9CFAB000, XDsdt: 9CFE6000, XFacs: 0)
+1:306  0:000        9CFE6000: 'DSDT', 'PARADISE', Rev: 1, Len: 58777
+1:308  0:001        9CFAB000: 'FACS', Ver: 2, Len: 64
+1:308  0:000    1. 9CFFD000: 'UEFI', 'PARADISE', Rev: 1, Len: 566
+1:308  0:000    2. 9CFFB000: 'FPDT', 'PARADISE', Rev: 1, Len: 68
+1:308  0:000    3. 9CFF9000: 'ASF!', 'PARADISE', Rev: 32, Len: 165
+1:308  0:000    4. 9CFF7000: 'HPET', 'PARADISE', Rev: 1, Len: 56
+1:308  0:000    5. 9CFF6000: 'APIC', 'PARADISE', Rev: 3, Len: 140
+1:308  0:000    6. 9CFF5000: 'MCFG', 'PARADISE', Rev: 1, Len: 60
+1:308  0:000    7. 9CFE5000: 'SLIC', 'PARADISE', Rev: 1, Len: 374
+1:308  0:000    8. 9CFE4000: 'SSDT', 'PARADISE', Rev: 1, Len: 2014
+1:308  0:000    9. 9CFE2000: 'BOOT', 'PARADISE', Rev: 1, Len: 40
+1:308  0:000    10. 9CFE1000: 'LPIT', 'PARADISE', Rev: 1, Len: 148
+1:308  0:000    11. 9CFDF000: 'ASPT', 'PARADISE', Rev: 7, Len: 52
+1:308  0:000    12. 9CFDE000: 'DBGP', 'PARADISE', Rev: 1, Len: 52
+1:308  0:000    13. 9CFD6000: 'SSDT', 'PARADISE', Rev: 1, Len: 1337
+1:308  0:000    14. 9CFD5000: 'SSDT', 'PARADISE', Rev: 1, Len: 2776
+1:308  0:000    15. 9CFD1000: 'SSDT', 'PARADISE', Rev: 1, Len: 14997
+1:308  0:000    16. 9CFCC000: 'SSDT', 'PARADISE', Rev: 1, Len: 16117
+1:308  0:000    17. 9CFD0000: 'BGRT', 'PARADISE', Rev: 1, Len: 56
