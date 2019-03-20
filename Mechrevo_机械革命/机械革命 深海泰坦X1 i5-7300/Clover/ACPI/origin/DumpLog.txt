@@ -1,0 +1,132 @@
+7:859  0:063  Found UEFI Acpi 2.0 RSDP at 6A43E000
+7:859  0:000  Saving ACPI tables from RSDP 6A43E000 to EFI\CLOVER\ACPI\origin ...
+7:859  0:000   6A43E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:859  0:000    (Xsdt: 6A43E0B8, Rsdt: 6A43E028)
+7:859  0:000    6A43E0B8: 'XSDT', 'A M I', Rev: 1, Len: 244
+7:859  0:000    6A43E028: 'RSDT', 'A M I', Rev: 1, Len: 140
+7:859  0:000    Tables in Xsdt: 26
+7:859  0:000    0. 6A45BDE0: 'FACP', 'A M I', Rev: 6, Len: 276
+7:859  0:000        (Dsdt: 6A43E240, Facs: 6ACACD80, XDsdt: 6A43E240, XFacs: 0)
+7:859  0:000        6A43E240: 'DSDT', 'A M I', Rev: 2, Len: 121753
+7:861  0:001        6ACACD80: 'FACS', Ver: 2, Len: 64
+7:861  0:000    1. 6A45BEF8: 'APIC', 'A M I', Rev: 3, Len: 132
+7:861  0:000    2. 6A45BF80: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:861  0:000    3. 6A45BFC8: 'FIDT', 'A M I', Rev: 1, Len: 156
+7:861  0:000    4. 6A45C068: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:861  0:000    5. 6A45C0A8: 'SSDT', 'A M I', Rev: 1, Len: 857
+7:861  0:000    6. 6A45C408: 'MSDM', 'A M I', Rev: 3, Len: 85
+7:861  0:000    7. 6A45C460: 'SSDT', 'A M I', Rev: 2, Len: 12942
+7:861  0:000    8. 6A45F6F0: 'SSDT', 'A M I', Rev: 2, Len: 10683
+7:861  0:000    9. 6A4620B0: 'HPET', 'A M I', Rev: 1, Len: 56
+7:861  0:000    10. 6A4620E8: 'UEFI', 'A M I', Rev: 1, Len: 66
+7:861  0:000    11. 6A462130: 'SSDT', 'A M I', Rev: 2, Len: 3806
+7:861  0:000    12. 6A463010: 'LPIT', 'A M I', Rev: 1, Len: 148
+7:861  0:000    13. 6A4630A8: 'SSDT', 'A M I', Rev: 2, Len: 321
+7:861  0:000    14. 6A4631F0: 'SSDT', 'A M I', Rev: 2, Len: 671
+7:861  0:000    15. 6A463490: 'SSDT', 'A M I', Rev: 2, Len: 12290
+7:861  0:000    16. 6A466498: 'SSDT', 'A M I', Rev: 2, Len: 1303
+7:861  0:000    17. 6A4669B0: 'DBGP', 'A M I', Rev: 1, Len: 52
+7:861  0:000    18. 6A4669E8: 'DBG2', 'A M I', Rev: 0, Len: 84
+7:861  0:000    19. 6A466A40: 'SSDT', 'A M I', Rev: 2, Len: 174
+7:861  0:000    20. 6A466AF0: 'DMAR', 'A M I', Rev: 1, Len: 168
+7:861  0:000    21. 6A466B98: 'BGRT', 'A M I', Rev: 1, Len: 56
+7:861  0:000    22. 6A466BD0: 'TPM2', 'A M I', Rev: 3, Len: 52
+7:861  0:000    23. 6A466C08: 'SSDT', 'A M I', Rev: 1, Len: 8042
+7:861  0:000    24. 6A468B78: 'ASF!', 'A M I', Rev: 32, Len: 160
+7:861  0:000    25. 6A468C18: 'WSMT', 'A M I', Rev: 1, Len: 40
+7:861  0:000    Tables in Rsdt: 26
+7:861  0:000    0. 6A43E1B8: 'FACP', 'A M I', Rev: 2, Len: 132
+7:861  0:000        (Dsdt: 6A43E240, Facs: 6ACACD40)
+7:861  0:000        6A43E240: 'DSDT', 'A M I', Rev: 2, Len: 121753
+7:863  0:001        6ACACD40: 'FACS', Ver: 0, Len: 64
+7:863  0:000    1. 6A45BEF8: 'APIC', 'A M I', Rev: 3, Len: 132
+7:863  0:000    2. 6A45BF80: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:863  0:000    3. 6A45BFC8: 'FIDT', 'A M I', Rev: 1, Len: 156
+7:863  0:000    4. 6A45C068: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:863  0:000    5. 6A45C0A8: 'SSDT', 'A M I', Rev: 1, Len: 857
+7:863  0:000    6. 6A45C408: 'MSDM', 'A M I', Rev: 3, Len: 85
+7:863  0:000    7. 6A45C460: 'SSDT', 'A M I', Rev: 2, Len: 12942
+7:863  0:000    8. 6A45F6F0: 'SSDT', 'A M I', Rev: 2, Len: 10683
+7:863  0:000    9. 6A4620B0: 'HPET', 'A M I', Rev: 1, Len: 56
+7:863  0:000    10. 6A4620E8: 'UEFI', 'A M I', Rev: 1, Len: 66
+7:863  0:000    11. 6A462130: 'SSDT', 'A M I', Rev: 2, Len: 3806
+7:863  0:000    12. 6A463010: 'LPIT', 'A M I', Rev: 1, Len: 148
+7:863  0:000    13. 6A4630A8: 'SSDT', 'A M I', Rev: 2, Len: 321
+7:863  0:000    14. 6A4631F0: 'SSDT', 'A M I', Rev: 2, Len: 671
+7:863  0:000    15. 6A463490: 'SSDT', 'A M I', Rev: 2, Len: 12290
+7:863  0:000    16. 6A466498: 'SSDT', 'A M I', Rev: 2, Len: 1303
+7:863  0:000    17. 6A4669B0: 'DBGP', 'A M I', Rev: 1, Len: 52
+7:863  0:000    18. 6A4669E8: 'DBG2', 'A M I', Rev: 0, Len: 84
+7:863  0:000    19. 6A466A40: 'SSDT', 'A M I', Rev: 2, Len: 174
+7:863  0:000    20. 6A466AF0: 'DMAR', 'A M I', Rev: 1, Len: 168
+7:863  0:000    21. 6A466B98: 'BGRT', 'A M I', Rev: 1, Len: 56
+7:863  0:000    22. 6A466BD0: 'TPM2', 'A M I', Rev: 3, Len: 52
+7:863  0:000    23. 6A466C08: 'SSDT', 'A M I', Rev: 1, Len: 8042
+7:863  0:000    24. 6A468B78: 'ASF!', 'A M I', Rev: 32, Len: 160
+7:863  0:000    25. 6A468C18: 'WSMT', 'A M I', Rev: 1, Len: 40
+7:863  0:000  Found UEFI Acpi 1.0 RSDP at 6A43E000
+7:863  0:000  Printing ACPI tables from RSDP 6A43E000 ...
+7:863  0:000   6A43E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:863  0:000    (Xsdt: 6A43E0B8, Rsdt: 6A43E028)
+7:863  0:000    6A43E0B8: 'XSDT', 'A M I', Rev: 1, Len: 244
+7:863  0:000    6A43E028: 'RSDT', 'A M I', Rev: 1, Len: 140
+7:863  0:000    Tables in Xsdt: 26
+7:863  0:000    0. 6A45BDE0: 'FACP', 'A M I', Rev: 6, Len: 276
+7:863  0:000        (Dsdt: 6A43E240, Facs: 6ACACD80, XDsdt: 6A43E240, XFacs: 0)
+7:863  0:000        6A43E240: 'DSDT', 'A M I', Rev: 2, Len: 121753
+7:865  0:001        6ACACD80: 'FACS', Ver: 2, Len: 64
+7:865  0:000    1. 6A45BEF8: 'APIC', 'A M I', Rev: 3, Len: 132
+7:865  0:000    2. 6A45BF80: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:865  0:000    3. 6A45BFC8: 'FIDT', 'A M I', Rev: 1, Len: 156
+7:865  0:000    4. 6A45C068: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:865  0:000    5. 6A45C0A8: 'SSDT', 'A M I', Rev: 1, Len: 857
+7:865  0:000    6. 6A45C408: 'MSDM', 'A M I', Rev: 3, Len: 85
+7:865  0:000    7. 6A45C460: 'SSDT', 'A M I', Rev: 2, Len: 12942
+7:865  0:000    8. 6A45F6F0: 'SSDT', 'A M I', Rev: 2, Len: 10683
+7:865  0:000    9. 6A4620B0: 'HPET', 'A M I', Rev: 1, Len: 56
+7:865  0:000    10. 6A4620E8: 'UEFI', 'A M I', Rev: 1, Len: 66
+7:865  0:000    11. 6A462130: 'SSDT', 'A M I', Rev: 2, Len: 3806
+7:865  0:000    12. 6A463010: 'LPIT', 'A M I', Rev: 1, Len: 148
+7:865  0:000    13. 6A4630A8: 'SSDT', 'A M I', Rev: 2, Len: 321
+7:865  0:000    14. 6A4631F0: 'SSDT', 'A M I', Rev: 2, Len: 671
+7:865  0:000    15. 6A463490: 'SSDT', 'A M I', Rev: 2, Len: 12290
+7:865  0:000    16. 6A466498: 'SSDT', 'A M I', Rev: 2, Len: 1303
+7:865  0:000    17. 6A4669B0: 'DBGP', 'A M I', Rev: 1, Len: 52
+7:865  0:000    18. 6A4669E8: 'DBG2', 'A M I', Rev: 0, Len: 84
+7:865  0:000    19. 6A466A40: 'SSDT', 'A M I', Rev: 2, Len: 174
+7:865  0:000    20. 6A466AF0: 'DMAR', 'A M I', Rev: 1, Len: 168
+7:865  0:000    21. 6A466B98: 'BGRT', 'A M I', Rev: 1, Len: 56
+7:865  0:000    22. 6A466BD0: 'TPM2', 'A M I', Rev: 3, Len: 52
+7:865  0:000    23. 6A466C08: 'SSDT', 'A M I', Rev: 1, Len: 8042
+7:865  0:000    24. 6A468B78: 'ASF!', 'A M I', Rev: 32, Len: 160
+7:865  0:000    25. 6A468C18: 'WSMT', 'A M I', Rev: 1, Len: 40
+7:865  0:000    Tables in Rsdt: 26
+7:865  0:000    0. 6A43E1B8: 'FACP', 'A M I', Rev: 2, Len: 132
+7:865  0:000        (Dsdt: 6A43E240, Facs: 6ACACD40)
+7:865  0:000        6A43E240: 'DSDT', 'A M I', Rev: 2, Len: 121753
+7:866  0:001        6ACACD40: 'FACS', Ver: 0, Len: 64
+7:866  0:000    1. 6A45BEF8: 'APIC', 'A M I', Rev: 3, Len: 132
+7:866  0:000    2. 6A45BF80: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:866  0:000    3. 6A45BFC8: 'FIDT', 'A M I', Rev: 1, Len: 156
+7:866  0:000    4. 6A45C068: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:866  0:000    5. 6A45C0A8: 'SSDT', 'A M I', Rev: 1, Len: 857
+7:866  0:000    6. 6A45C408: 'MSDM', 'A M I', Rev: 3, Len: 85
+7:866  0:000    7. 6A45C460: 'SSDT', 'A M I', Rev: 2, Len: 12942
+7:866  0:000    8. 6A45F6F0: 'SSDT', 'A M I', Rev: 2, Len: 10683
+7:866  0:000    9. 6A4620B0: 'HPET', 'A M I', Rev: 1, Len: 56
+7:866  0:000    10. 6A4620E8: 'UEFI', 'A M I', Rev: 1, Len: 66
+7:866  0:000    11. 6A462130: 'SSDT', 'A M I', Rev: 2, Len: 3806
+7:866  0:000    12. 6A463010: 'LPIT', 'A M I', Rev: 1, Len: 148
+7:866  0:000    13. 6A4630A8: 'SSDT', 'A M I', Rev: 2, Len: 321
+7:866  0:000    14. 6A4631F0: 'SSDT', 'A M I', Rev: 2, Len: 671
+7:866  0:000    15. 6A463490: 'SSDT', 'A M I', Rev: 2, Len: 12290
+7:866  0:000    16. 6A466498: 'SSDT', 'A M I', Rev: 2, Len: 1303
+7:866  0:000    17. 6A4669B0: 'DBGP', 'A M I', Rev: 1, Len: 52
+7:866  0:000    18. 6A4669E8: 'DBG2', 'A M I', Rev: 0, Len: 84
+7:866  0:000    19. 6A466A40: 'SSDT', 'A M I', Rev: 2, Len: 174
+7:866  0:000    20. 6A466AF0: 'DMAR', 'A M I', Rev: 1, Len: 168
+7:866  0:000    21. 6A466B98: 'BGRT', 'A M I', Rev: 1, Len: 56
+7:866  0:000    22. 6A466BD0: 'TPM2', 'A M I', Rev: 3, Len: 52
+7:866  0:000    23. 6A466C08: 'SSDT', 'A M I', Rev: 1, Len: 8042
+7:866  0:000    24. 6A468B78: 'ASF!', 'A M I', Rev: 32, Len: 160
+7:866  0:000    25. 6A468C18: 'WSMT', 'A M I', Rev: 1, Len: 40
