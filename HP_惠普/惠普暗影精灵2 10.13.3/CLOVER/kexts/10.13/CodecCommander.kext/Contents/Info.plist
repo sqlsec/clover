@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>16E195</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CodecCommander</string>
+	<key>CFBundleGetInfoString</key>
+	<string>2.6.3, Copyright © 2013-2014 TimeWalker. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.tw.CodecCommander</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>CodecCommander</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.6.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>2.6.3</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>8E2002</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>10M2518</string>
+	<key>DTSDKName</key>
+	<string>macosx10.6</string>
+	<key>DTXcode</key>
+	<string>0832</string>
+	<key>DTXcodeBuild</key>
+	<string>8E2002</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>CodecCommander</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.tw.CodecCommander</string>
+			<key>Codec Profile</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>Check Infinitely</key>
+					<false/>
+					<key>Check Interval</key>
+					<integer>3000</integer>
+					<key>Custom Commands</key>
+					<array/>
+					<key>Perform Reset</key>
+					<true/>
+					<key>Perform Reset on EAPD Fail</key>
+					<false/>
+					<key>Perform Reset on External Wake</key>
+					<true/>
+					<key>Send Delay</key>
+					<integer>300</integer>
+					<key>Sleep Nodes</key>
+					<true/>
+					<key>Update Nodes</key>
+					<true/>
+				</dict>
+				<key>Disabled HDMI</key>
+				<dict>
+					<key>Check Infinitely</key>
+					<false/>
+					<key>Disable</key>
+					<false/>
+					<key>Sleep Nodes</key>
+					<false/>
+					<key>Update Nodes</key>
+					<false/>
+				</dict>
+			</dict>
+			<key>IOClass</key>
+			<string>CodecCommander</string>
+			<key>IOMatchCategory</key>
+			<string>CodecCommander</string>
+			<key>IOProviderClass</key>
+			<string>IOHDACodecFunction</string>
+			<key>IOUserClientClass</key>
+			<string>CodecCommanderClient</string>
+		</dict>
+		<key>CodecCommanderPowerHook</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.tw.CodecCommander</string>
+			<key>Codec Profile</key>
+			<dict>
+				<key>10de</key>
+				<string>Disabled HDMI</string>
+				<key>Disabled HDMI</key>
+				<dict>
+					<key>Disable</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>IOClass</key>
+			<string>CodecCommanderPowerHook</string>
+			<key>IOMatchCategory</key>
+			<string>CodecCommanderPowerHook</string>
+			<key>IOProviderClass</key>
+			<string>AppleHDADriver</string>
+		</dict>
+		<key>CodecCommanderProbeInit</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.tw.CodecCommander</string>
+			<key>Codec Profile</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>Custom Commands</key>
+					<array/>
+				</dict>
+			</dict>
+			<key>IOClass</key>
+			<string>CodecCommanderProbeInit</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>IOHDACodecDevice</string>
+		</dict>
+		<key>CodecCommanderResidency</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.tw.CodecCommander</string>
+			<key>IOClass</key>
+			<string>CodecCommanderResidency</string>
+			<key>IOMatchCategory</key>
+			<string>CodecCommanderResidency</string>
+			<key>IOProviderClass</key>
+			<string>IOResources</string>
+		</dict>
+		<key>CodecCommanderVoodooHDA</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.tw.CodecCommander</string>
+			<key>Codec Profile</key>
+			<dict>
+				<key>1002</key>
+				<string>Disabled HDMI</string>
+				<key>10de</key>
+				<string>Disabled HDMI</string>
+				<key>8086</key>
+				<string>Disabled HDMI</string>
+				<key>Default</key>
+				<dict>
+					<key>Check Infinitely</key>
+					<false/>
+					<key>Perform Reset</key>
+					<false/>
+					<key>Perform Reset on EAPD Fail</key>
+					<false/>
+					<key>Perform Reset on External Wake</key>
+					<false/>
+					<key>Sleep Nodes</key>
+					<false/>
+					<key>Update Nodes</key>
+					<false/>
+				</dict>
+				<key>Disabled HDMI</key>
+				<dict>
+					<key>Check Infinitely</key>
+					<false/>
+					<key>Disable</key>
+					<true/>
+					<key>Sleep Nodes</key>
+					<false/>
+					<key>Update Nodes</key>
+					<false/>
+				</dict>
+			</dict>
+			<key>IOClass</key>
+			<string>CodecCommander</string>
+			<key>IOMatchCategory</key>
+			<string>CodecCommander</string>
+			<key>IOProviderClass</key>
+			<string>VoodooHDADevice</string>
+			<key>IOUserClientClass</key>
+			<string>CodecCommanderClient</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2013-2014 TimeWalker/RehabMan. All rights reserved.</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOACPIFamily</key>
+		<string>1.0d1</string>
+		<key>com.apple.iokit.IOAudioFamily</key>
+		<string>1.1</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>9.0.0</string>
+	</dict>
+	<key>Source Code</key>
+	<string>https://github.com/RehabMan/EAPD-Codec-Commander</string>
+</dict>
+</plist>

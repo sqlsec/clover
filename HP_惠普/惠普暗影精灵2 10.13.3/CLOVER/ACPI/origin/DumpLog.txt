@@ -1,0 +1,70 @@
+2:868  0:763  Found UEFI Acpi 2.0 RSDP at 7AEFD014
+2:868  0:000  Saving ACPI tables from RSDP 7AEFD014 to EFI\CLOVER\ACPI\origin ...
+2:868  0:000   7AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+2:929  0:061    (Xsdt: 7AEB6188, Rsdt: 7AEB60C4)
+2:929  0:000    7AEB6188: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 228 -> XSDT.aml
+2:932  0:003    7AEB60C4: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 132 -> RSDT.aml
+2:935  0:003    Tables in Xsdt: 24
+2:935  0:000    0. 7AEE3000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 244 -> FACP.aml
+2:938  0:003        (Dsdt: 7AEC1000, Facs: 7AE79000, XDsdt: 7AEC1000, XFacs: 0)
+2:938  0:000        7AEC1000: 'DSDT', '8257', Rev: 2, Len: 119293 -> DSDT.aml
+2:944  0:005        7AE79000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+2:947  0:002    1. 7AEFC000: 'UEFI', '8257', Rev: 1, Len: 566 -> UEFI.aml
+2:951  0:003    2. 7AEFB000: 'UEFI', '8257', Rev: 1, Len: 66 -> UEFI.aml
+2:955  0:004    3. 7AEF4000: 'SSDT', '8257', Rev: 1, Len: 28444 -> SSDT-0-8257.aml
+2:958  0:003    4. 7AEF3000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85 -> MSDM.aml
+2:961  0:002    5. 7AEEE000: 'SSDT', '8257', Rev: 2, Len: 20064 -> SSDT-1-8257.aml
+2:965  0:003    6. 7AEEA000: 'SSDT', '8257', Rev: 2, Len: 13701 -> SSDT-2-8257.aml
+2:968  0:003    7. 7AEE9000: 'DBGP', '8257', Rev: 1, Len: 52 -> DBGP.aml
+2:971  0:003    8. 7AEE8000: 'DBG2', '8257', Rev: 0, Len: 84 -> DBG2.aml
+2:975  0:003    9. 7AEE7000: 'ASF!', '8257', Rev: 32, Len: 165 -> ASF!.aml
+2:978  0:003    10. 7AEE6000: 'ASPT', '8257', Rev: 7, Len: 52 -> ASPT.aml
+2:981  0:002    11. 7AEE5000: 'BOOT', '8257', Rev: 1, Len: 40 -> BOOT.aml
+2:984  0:002    12. 7AEE4000: 'DBGP', '8257', Rev: 1, Len: 52 -> DBGP.aml
+2:989  0:005    13. 7AEE2000: 'HPET', '8257', Rev: 1, Len: 56 -> HPET.aml
+2:992  0:003    14. 7AEE1000: 'LPIT', '8257', Rev: 1, Len: 148 -> LPIT.aml
+2:995  0:003    15. 7AEE0000: 'APIC', '8257', Rev: 3, Len: 188 -> APIC.aml
+2:998  0:003    16. 7AEDF000: 'MCFG', '8257', Rev: 1, Len: 60 -> MCFG.aml
+3:001  0:002    17. 7AEC0000: 'SSDT', '8257', Rev: 1, Len: 724 -> SSDT-3-8257.aml
+3:005  0:003    18. 7AEBD000: 'SSDT', '8257', Rev: 2, Len: 11182 -> SSDT-4-8257.aml
+3:008  0:002    19. 7AEBC000: 'SSDT', '8257', Rev: 2, Len: 3699 -> SSDT-5-8257.aml (Found hidden SSDT 7 pcs)
+3:011  0:002        * 7ABA6618: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1401  53 53 44 54 79 05 00 00 02 FB 50 6D 52 65 66 00 Internal length = 1401 -> SSDT-x5_0-Cpu0Ist.aml
+3:014  0:002        * 7ABA6018: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 D1 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x5_1-ApIst.aml
+3:017  0:003        * 7ABA6C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 68 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x5_2-Cpu0Cst.aml
+3:021  0:003        * 7ABA4C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 ED 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x5_3-ApCst.aml
+3:023  0:002        * 7ABA5F18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2E 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x5_4-Cpu0Hwp.aml
+3:026  0:002        * 7ABA4A98: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 00 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x5_5-ApHwp.aml
+3:029  0:002        * 7ABA4D98: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 88 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x5_6-HwpLvt.aml
+3:032  0:003  
+3:032  0:000    20. 7AEB7000: 'SSDT', '8257', Rev: 1, Len: 17302 -> SSDT-6-8257.aml
+3:036  0:003    21. 7AEB5000: 'DMAR', '8257', Rev: 1, Len: 168 -> DMAR.aml
+3:039  0:002    22. 7AEB4000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68 -> FPDT.aml
+3:043  0:003    23. 7AEB3000: 'BGRT', '8257', Rev: 1, Len: 56 -> BGRT.aml
+3:045  0:002    Tables in Rsdt: 24
+3:045  0:000    0. 7AEE3000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 244
+3:045  0:000        (Dsdt: 7AEC1000, Facs: 7AE79000, XDsdt: 7AEC1000, XFacs: 0)
+3:045  0:000        7AEC1000: 'DSDT', '8257', Rev: 2, Len: 119293
+3:047  0:001        7AE79000: 'FACS', Ver: 2, Len: 64
+3:047  0:000    1. 7AEFC000: 'UEFI', '8257', Rev: 1, Len: 566
+3:047  0:000    2. 7AEFB000: 'UEFI', '8257', Rev: 1, Len: 66
+3:047  0:000    3. 7AEF4000: 'SSDT', '8257', Rev: 1, Len: 28444
+3:047  0:000    4. 7AEF3000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+3:047  0:000    5. 7AEEE000: 'SSDT', '8257', Rev: 2, Len: 20064
+3:047  0:000    6. 7AEEA000: 'SSDT', '8257', Rev: 2, Len: 13701
+3:047  0:000    7. 7AEE9000: 'DBGP', '8257', Rev: 1, Len: 52
+3:047  0:000    8. 7AEE8000: 'DBG2', '8257', Rev: 0, Len: 84
+3:047  0:000    9. 7AEE7000: 'ASF!', '8257', Rev: 32, Len: 165
+3:047  0:000    10. 7AEE6000: 'ASPT', '8257', Rev: 7, Len: 52
+3:047  0:000    11. 7AEE5000: 'BOOT', '8257', Rev: 1, Len: 40
+3:047  0:000    12. 7AEE4000: 'DBGP', '8257', Rev: 1, Len: 52
+3:047  0:000    13. 7AEE2000: 'HPET', '8257', Rev: 1, Len: 56
+3:047  0:000    14. 7AEE1000: 'LPIT', '8257', Rev: 1, Len: 148
+3:047  0:000    15. 7AEE0000: 'APIC', '8257', Rev: 3, Len: 188
+3:047  0:000    16. 7AEDF000: 'MCFG', '8257', Rev: 1, Len: 60
+3:047  0:000    17. 7AEC0000: 'SSDT', '8257', Rev: 1, Len: 724
+3:047  0:000    18. 7AEBD000: 'SSDT', '8257', Rev: 2, Len: 11182
+3:047  0:000    19. 7AEBC000: 'SSDT', '8257', Rev: 2, Len: 3699
+3:047  0:000    20. 7AEB7000: 'SSDT', '8257', Rev: 1, Len: 17302
+3:047  0:000    21. 7AEB5000: 'DMAR', '8257', Rev: 1, Len: 168
+3:047  0:000    22. 7AEB4000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+3:047  0:000    23. 7AEB3000: 'BGRT', '8257', Rev: 1, Len: 56
