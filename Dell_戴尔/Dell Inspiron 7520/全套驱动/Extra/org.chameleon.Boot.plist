@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DropSSDT</key>
+	<string>Yes</string>
+	<key>EthernetBuiltIn</key>
+	<string>Yes</string>
+	<key>GenerateCStates</key>
+	<string>Yes</string>
+	<key>GeneratePStates</key>
+	<string>Yes</string>
+	<key>Graphics Mode</key>
+	<string>1920x1080x32</string>
+	<key>Kernel</key>
+	<string>mach_kernel</string>
+	<key>Kernel Flags</key>
+	<string>darkwake=0</string>
+	<key>Legacy Logo</key>
+	<string>Yes</string>
+	<key>Timeout</key>
+	<string>2</string>
+	<key>UseKernelCache</key>
+	<string>Yes</string>
+	<key>device-properties</key>
+	<string>ab00000001000000010000009f0000000300000002010c00d041030a000000000101060000027fff0400240000004100410050004c00300030002c004400750061006c004c0069006e006b00000008000000010000002c0000004100410050004c002c00690067002d0070006c006100740066006f0072006d002d006900640000000800000004006601140000006800640061002d0067006600780000000d0000006f6e626f6172642d31</string>
+</dict>
+</plist>

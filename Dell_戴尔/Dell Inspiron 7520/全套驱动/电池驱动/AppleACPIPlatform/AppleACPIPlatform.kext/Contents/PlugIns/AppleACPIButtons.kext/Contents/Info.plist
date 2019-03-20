@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleACPIButtons</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.AppleACPIButtons</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Apple ACPI Buttons Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.6</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.3.6</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>ACPI AC Adapter</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleACPIButtons</string>
+			<key>IOClass</key>
+			<string>AppleACPIACAdapter</string>
+			<key>IONameMatch</key>
+			<string>ACPI0003</string>
+			<key>IOProviderClass</key>
+			<string>IOACPIPlatformDevice</string>
+		</dict>
+		<key>ACPI Lid Switch</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleACPIButtons</string>
+			<key>IOClass</key>
+			<string>AppleACPILid</string>
+			<key>IONameMatch</key>
+			<string>PNP0C0D</string>
+			<key>IOProviderClass</key>
+			<string>IOACPIPlatformDevice</string>
+		</dict>
+		<key>ACPI Power/Sleep Button</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleACPIButtons</string>
+			<key>IOClass</key>
+			<string>AppleACPIButton</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>PNP0C0C</string>
+				<string>power-button</string>
+				<string>PNP0C0E</string>
+				<string>sleep-button</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>IOACPIPlatformDevice</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2003-2010 Apple Inc. All rights reserved.</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.driver.AppleACPIPlatform</key>
+		<string>1.3.6</string>
+		<key>com.apple.iokit.IOACPIFamily</key>
+		<string>1.0.0d1</string>
+		<key>com.apple.iokit.IOHIDSystem</key>
+		<string>1.1</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.0.0b3</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0b3</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0b3</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0b3</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>8.0.0b3</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
